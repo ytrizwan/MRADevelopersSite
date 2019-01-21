@@ -1,0 +1,116 @@
+/* CSS Document */
+.mainBackgroundColor{
+	background-color: white !important;
+}
+
+/* Flip Logo Text */
+span.flip_text{
+	display: inline-block; 
+}
+.flip_text{ 
+	-moz-transform: scale(-1, 1);
+	-webkit-transform: scale(-1, 1);
+	-o-transform: scale(-1, 1);
+	-ms-transform: scale(-1, 1);
+	transform: scale(-1, 1);
+}
+
+/* Changing color of Jumbo in Index Page */
+.jumbotronWhiteColor {
+    background-color: #50baec;
+	margin-bottom: 0px;
+}
+
+/* Style of Logo */
+.logoStyle{
+	font-weight: bold; 
+	border-radius: 10px;
+	color: white;
+}
+
+/* Yellow Color Text */
+.yellowColorText{
+	color: rgb(255, 205, 59);
+}
+
+/* White Color Text */
+.whiteColorText{
+	background: white;
+}
+
+/* Responsive Text Size */
+.responsiveTextSize{
+	font-size: 5vw;
+}
+.disableHover a:hover{
+	text-decoration:none;
+}
+.disableHover a #mraPart:hover{
+	color: rgb(255, 205, 59);
+}
+
+/* Top Logo Styles */
+.logoStyleTopLogo{
+	font-weight: bold;
+}
+.disableHoverTopLogo a span:hover{
+	color: rgb(255, 205, 59);
+}
+
+
+/* Size of Jumbotron when Fixed header */
+@media (min-width: 1px){
+	.jumbotronOnTop {
+    	padding: 8rem 2rem;
+	}
+}
+.jumbotronBoarderHead{
+	border-bottom: 1px solid;
+}
+.jumbotronBoarderFooter{
+	border-top: 1px solid;
+}
+
+/* div Main Container style */
+.mainContainer{
+	background-color: white; 
+	min-height: 1000px;
+}
+
+.showBoarder{
+	border: 1px solid black;
+	border-radius: 15px;
+}
+
+.showBoarderWithNoRadious{
+	border: 1px solid black;
+	border-radius: 0px;
+}
+
+.boldText{
+	font-weight: bold;
+}
+
+.marginTopBottomByTen {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.marginAllSidesByTen{
+	margin: 10px;
+}
+.marginTopBottomByTenAndSides{
+	margin-top: 10px;
+	margin-left: 1px;
+	margin-right: 1px;
+	margin-bottom: 10px;
+}
+
+.eachMainPostUpperBottom{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.lightBlueColor{
+	background: #f0fdff;
+}
