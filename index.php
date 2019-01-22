@@ -98,7 +98,7 @@
 					
 					
 					<div class="showBoarder eachMainPostUpperBottom lightBlueBackground">
-						<div class="row showBoarder whiteColorBackground marginAllSidesByTen">
+						<div class="row whiteColorBackground marginAllSidesByTen">
 							<div class="col-12 reponsiveTextSizeSixteen reponsiveTextSizeSixteen boldText">
 								This is Post Header
 							</div>
@@ -106,7 +106,7 @@
 
 						<div class="row marginAllSidesByTen">
 							<div class="col-lg-4 ">
-								<div class="showBoarder whiteColorBackground">
+								<div class="whiteColorBackground">
 									<div style="background: black; border-radius: 10px;">
 									<img class="imageStyleOfPosts img-fluid" src="assets/images/dynamic/postMainImage/post01.jpg">
 										</div>
@@ -114,7 +114,7 @@
 								</div>
 							</div>
 							<div class="col-lg-1"></div>
-							<div class="col-lg-7 showBoarder whiteColorBackground reponsiveTextSizeTwelve justifiedParagraph">
+							<div class="col-lg-7 whiteColorBackground reponsiveTextSizeTwelve justifiedParagraph">
 								<p>Since before Christmas, royal fans have questioned whether the two duchesses have been getting along, with rumours emerging that the sisters-in-law are “feuding”, The Sun reports.
 
 								Now, royal experts have weighed in to claim Meghan — who has only been a member of the royal family for eight months — “never stood a chance” in the popularity stakes against Kate.
@@ -123,7 +123,7 @@
 							</div>
 						</div>
 						
-						<div class="row marginAllSidesByTwenty whiteColorBackground lightBlueBackground">
+						<div class="row marginAllSidesByTwenty">
 							<div class="col-6 alignLeft">
 								<span class="boldText">Date:</span> 22/01/2019
 							</div>
@@ -159,7 +159,7 @@
 					
 					
 					<div class="showBoarder eachMainPostUpperBottom lightBlueBackground">
-						<div class="row showBoarder whiteColorBackground marginAllSidesByTen">
+						<div class="row whiteColorBackground marginAllSidesByTen">
 							<div class="col-12 reponsiveTextSizeSixteen reponsiveTextSizeSixteen boldText">
 								This is Post Header
 							</div>
@@ -167,7 +167,7 @@
 
 						<div class="row marginAllSidesByTen">
 							<div class="col-lg-4 ">
-								<div class="showBoarder whiteColorBackground">
+								<div class="whiteColorBackground">
 									<div style="background: black; border-radius: 10px;">
 									<img class="imageStyleOfPosts img-fluid" src="assets/images/dynamic/postMainImage/post01.jpg">
 										</div>
@@ -175,7 +175,7 @@
 								</div>
 							</div>
 							<div class="col-lg-1"></div>
-							<div class="col-lg-7 showBoarder whiteColorBackground reponsiveTextSizeTwelve justifiedParagraph">
+							<div class="col-lg-7 whiteColorBackground reponsiveTextSizeTwelve justifiedParagraph">
 								<p>Since before Christmas, royal fans have questioned whether the two duchesses have been getting along, with rumours emerging that the sisters-in-law are “feuding”, The Sun reports.
 
 								Now, royal experts have weighed in to claim Meghan — who has only been a member of the royal family for eight months — “never stood a chance” in the popularity stakes against Kate.
