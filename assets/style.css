@@ -104,6 +104,11 @@ span.flip_text{
 .marginAllSidesByTen{
 	margin: 10px;
 }
+
+.marginAllSidesByTwenty{
+	margin: 20px;
+}
+
 .marginTopBottomByTenAndSides{
 	margin-top: 10px;
 	margin-left: 1px;
@@ -116,7 +121,7 @@ span.flip_text{
 	margin-bottom: 10px;
 }
 
-.lightBlueColor{
+.lightBlueBackground{
 	background: #f0fdff;
 }
 
@@ -157,4 +162,12 @@ span.flip_text{
 .justifiedParagraph{
 	text-align: justify;
 	font: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+.alignLeft{
+	 text-align: left;
+}
+
+.alignRight{
+	text-align: right;
 }

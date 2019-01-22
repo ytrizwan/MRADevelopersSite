@@ -97,7 +97,7 @@
 					
 					
 					
-					<div class="showBoarder eachMainPostUpperBottom lightBlueColor">
+					<div class="showBoarder eachMainPostUpperBottom lightBlueBackground">
 						<div class="row showBoarder whiteColorBackground marginAllSidesByTen">
 							<div class="col-12 reponsiveTextSizeSixteen reponsiveTextSizeSixteen boldText">
 								This is Post Header
@@ -122,11 +122,105 @@
 								Writing in the Guardian, Yomi Adegoke said: “Meghan’s casting as a Disney villain — a black female divorcee with a penchant for black dresses (another protocol breach) — practically writes itself.</p>
 							</div>
 						</div>
-					</div>
+						
+						<div class="row marginAllSidesByTwenty whiteColorBackground lightBlueBackground">
+							<div class="col-6 alignLeft">
+								<span class="boldText">Date:</span> 22/01/2019
+							</div>
+							<div class="col-6 alignRight">
+								<a href="#">Open</a>
+							</div>
+						</div>
+					</div><hr>
 					
 					
 					
 
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="showBoarder eachMainPostUpperBottom lightBlueBackground">
+						<div class="row showBoarder whiteColorBackground marginAllSidesByTen">
+							<div class="col-12 reponsiveTextSizeSixteen reponsiveTextSizeSixteen boldText">
+								This is Post Header
+							</div>
+						</div>
+
+						<div class="row marginAllSidesByTen">
+							<div class="col-lg-4 ">
+								<div class="showBoarder whiteColorBackground">
+									<div style="background: black; border-radius: 10px;">
+									<img class="imageStyleOfPosts img-fluid" src="assets/images/dynamic/postMainImage/post01.jpg">
+										</div>
+									<h4 class="boldText reponsiveTextSizeSixteen">This is Part Of Images</h4>
+								</div>
+							</div>
+							<div class="col-lg-1"></div>
+							<div class="col-lg-7 showBoarder whiteColorBackground reponsiveTextSizeTwelve justifiedParagraph">
+								<p>Since before Christmas, royal fans have questioned whether the two duchesses have been getting along, with rumours emerging that the sisters-in-law are “feuding”, The Sun reports.
+
+								Now, royal experts have weighed in to claim Meghan — who has only been a member of the royal family for eight months — “never stood a chance” in the popularity stakes against Kate.
+
+								Writing in the Guardian, Yomi Adegoke said: “Meghan’s casting as a Disney villain — a black female divorcee with a penchant for black dresses (another protocol breach) — practically writes itself.</p>
+							</div>
+						</div>
+						
+						<div class="row marginAllSidesByTwenty whiteColorBackground lightBlueBackground">
+							<div class="col-6 alignLeft">
+								<span class="boldText">Date:</span> 22/01/2019
+							</div>
+							<div class="col-6 alignRight">
+								<a href="#">Open</a>
+							</div>
+						</div>
+					</div><hr>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
 					
 					
 					
@@ -153,7 +247,7 @@
 					
 					
 					
-					<div class="col-12 showBoarder lightBlueColor marginTopBottomByTen">
+					<div class="col-12 showBoarder lightBlueBackground marginTopBottomByTen">
 						<div class="row marginTopBottomByTenAndSides">
 							<div class="col-5 showBoarder">
 								This is Image
