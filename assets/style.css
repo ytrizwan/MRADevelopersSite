@@ -34,7 +34,7 @@ span.flip_text{
 }
 
 /* White Color Text */
-.whiteColorText{
+.whiteColorBackground{
 	background: white;
 }
 
@@ -91,6 +91,11 @@ span.flip_text{
 	font-weight: bold;
 }
 
+.whiteTextWithBlackBackground{
+	background: black;
+	color: white;
+}
+
 .marginTopBottomByTen {
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -113,4 +118,43 @@ span.flip_text{
 
 .lightBlueColor{
 	background: #f0fdff;
+}
+
+.imageStyleOfPosts{
+    margin-top: 15px;
+	margin-bottom: 15px;
+	border-radius: 10px;
+}
+
+.reponsiveTextSizeSixteen {
+  font-size: 16px;
+}
+@media screen and (min-width: 320px) {
+  .reponsiveTextSizeSixteen {
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  .reponsiveTextSizeSixteen {
+    font-size: 22px;
+  }
+}
+
+.reponsiveTextSizeTwelve  {
+  font-size: 16px;
+}
+@media screen and (min-width: 320px) {
+  .reponsiveTextSizeTwelve {
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  .reponsiveTextSizeTwelve {
+    font-size: 16px;
+  }
+}
+
+.justifiedParagraph{
+	text-align: justify;
+	font: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 }
