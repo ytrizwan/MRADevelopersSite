@@ -19,7 +19,6 @@
 				<span id="mraPart" class="logoStyleTopLogo">M<span class="flip_text yellowColorText">R</span>A <span class="flip_text yellowColorText">D</span>evelopers</span>
 			</a>
 		
-
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
    				<span class="navbar-toggler-icon"></span>
    			</button>
@@ -214,17 +213,35 @@
 				<div class="col-lg-4 col-12">
 
 					<div class="col-12 showBoarderWithNoRadious marginTopBottomByTen boldText whiteTextWithBlackBackground boarderShadow">
-						Top Posts
+						Main Posts
 					</div>
 
-					<div class="col-12 showBoarder lightBlueBackground marginTopBottomByTen">
+					<div class="col-12 showBoarder lightBlueBackground marginTopBottomByTen boarderShadow">
 						<div class="row marginTopBottomByTenAndSides">
-							<div class="col-5 showBoarder">
-								This is Image
+							
+							
+							
+							
+							<div class="col-12 showBoarder whiteColorBackground boldText">
+								Programming
 							</div>
-							<div class="col-7 showBoarder whiteColorBackground">
-								This is short Text
-							</div>
+							
+							
+								
+							<ul style="text-align: left;">
+								<li>Pakistan</li>
+								<li>India</li>
+								<li>Australia</li>
+							</ul>
+								
+								
+
+
+
+
+							
+
+							
 						</div>
 					</div>
 				</div>
