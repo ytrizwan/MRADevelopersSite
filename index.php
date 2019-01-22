@@ -24,7 +24,6 @@
    				<span class="navbar-toggler-icon"></span>
    			</button>
 		
-
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item active">
@@ -217,11 +216,6 @@
 					<div class="col-12 showBoarderWithNoRadious marginTopBottomByTen boldText whiteTextWithBlackBackground boarderShadow">
 						Top Posts
 					</div>
-
-
-
-
-
 
 					<div class="col-12 showBoarder lightBlueBackground marginTopBottomByTen">
 						<div class="row marginTopBottomByTenAndSides">
