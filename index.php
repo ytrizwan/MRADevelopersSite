@@ -86,7 +86,7 @@
 		<div class="container mainContainer" style="margin-top: 5px;">
 			<div class="row text-center">
 				<div class="col-lg-8 col-12">
-					<div class="col-12 showBoarderWithNoRadious marginTopBottomByTen boldText whiteTextWithBlackBackground">
+					<div class="col-12 showBoarderWithNoRadious marginTopBottomByTen boldText whiteTextWithBlackBackground boarderShadow">
 						Latest Posts
 					</div>
 					
@@ -97,9 +97,9 @@
 					
 					
 					
-					<div class="showBoarder eachMainPostUpperBottom lightBlueBackground">
-						<div class="row whiteColorBackground marginAllSidesByTen">
-							<div class="col-12 reponsiveTextSizeSixteen reponsiveTextSizeSixteen boldText">
+					<div class="showBoarder eachMainPostUpperBottom lightBlueBackground boarderShadow">
+						<div class="row marginAllSidesByTen">
+							<div class="col-12 reponsiveTextSizeMaxTwentyTwo boldText">
 								This is Post Header
 							</div>
 						</div>
@@ -110,11 +110,11 @@
 									<div style="background: black; border-radius: 10px;">
 									<img class="imageStyleOfPosts img-fluid" src="assets/images/dynamic/postMainImage/post01.jpg">
 										</div>
-									<h4 class="boldText reponsiveTextSizeSixteen">This is Part Of Images</h4>
+									<h4 class="boldText reponsiveTextSizeMaxSixteen eachMainPostUpperBottom">This is Part Of Images</h4>
 								</div>
 							</div>
 							<div class="col-lg-1"></div>
-							<div class="col-lg-7 whiteColorBackground reponsiveTextSizeTwelve justifiedParagraph">
+							<div class="col-lg-7 whiteColorBackground reponsiveTextSizeMaxSixteen justifiedParagraph">
 								<p>Since before Christmas, royal fans have questioned whether the two duchesses have been getting along, with rumours emerging that the sisters-in-law are “feuding”, The Sun reports.
 
 								Now, royal experts have weighed in to claim Meghan — who has only been a member of the royal family for eight months — “never stood a chance” in the popularity stakes against Kate.
@@ -158,9 +158,9 @@
 					
 					
 					
-					<div class="showBoarder eachMainPostUpperBottom lightBlueBackground">
-						<div class="row whiteColorBackground marginAllSidesByTen">
-							<div class="col-12 reponsiveTextSizeSixteen reponsiveTextSizeSixteen boldText">
+					<div class="showBoarder eachMainPostUpperBottom lightBlueBackground boarderShadow">
+						<div class="row marginAllSidesByTen">
+							<div class="col-12 reponsiveTextSizeMaxTwentyTwo boldText">
 								This is Post Header
 							</div>
 						</div>
@@ -169,13 +169,13 @@
 							<div class="col-lg-4 ">
 								<div class="whiteColorBackground">
 									<div style="background: black; border-radius: 10px;">
-									<img class="imageStyleOfPosts img-fluid" src="assets/images/dynamic/postMainImage/post01.jpg">
+									<img class="imageStyleOfPosts img-fluid" src="assets/images/dynamic/postMainImage/post02.jpg">
 										</div>
-									<h4 class="boldText reponsiveTextSizeSixteen">This is Part Of Images</h4>
+									<h4 class="boldText reponsiveTextSizeMaxSixteen eachMainPostUpperBottom">This is Part Of Images</h4>
 								</div>
 							</div>
 							<div class="col-lg-1"></div>
-							<div class="col-lg-7 whiteColorBackground reponsiveTextSizeTwelve justifiedParagraph">
+							<div class="col-lg-7 whiteColorBackground reponsiveTextSizeMaxSixteen justifiedParagraph">
 								<p>Since before Christmas, royal fans have questioned whether the two duchesses have been getting along, with rumours emerging that the sisters-in-law are “feuding”, The Sun reports.
 
 								Now, royal experts have weighed in to claim Meghan — who has only been a member of the royal family for eight months — “never stood a chance” in the popularity stakes against Kate.
@@ -238,7 +238,7 @@
 				
 				<div class="col-lg-4 col-12">
 					
-					<div class="col-12 showBoarderWithNoRadious marginTopBottomByTen boldText whiteTextWithBlackBackground">
+					<div class="col-12 showBoarderWithNoRadious marginTopBottomByTen boldText whiteTextWithBlackBackground boarderShadow">
 						Top Posts
 					</div>
 					
