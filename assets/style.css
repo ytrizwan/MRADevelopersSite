@@ -116,7 +116,7 @@ span.flip_text{
 	margin-bottom: 10px;
 }
 
-.marginTop{
+.marginTopByFive{
 	margin-top: 5px;
 }
 .eachMainPostUpperBottom{
@@ -173,6 +173,10 @@ span.flip_text{
 
 .alignRight{
 	text-align: right;
+}
+
+.alignTextToLeft{
+	text-align: left;
 }
 
 .boarderShadow{

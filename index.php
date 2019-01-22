@@ -70,7 +70,7 @@
 
 
 		<!--Main Middle Block, Where I put All Elements-->
-		<div class="container mainContainer marginTop">
+		<div class="container mainContainer marginTopByFive">
 			<div class="row text-center">
 				<div class="col-lg-8 col-12">
 					<div class="col-12 showBoarderWithNoRadious marginTopBottomByTen boldText whiteTextWithBlackBackground boarderShadow">
@@ -217,32 +217,45 @@
 					</div>
 
 					<div class="col-12 showBoarder lightBlueBackground marginTopBottomByTen boarderShadow">
+						
+						
+						
+						
+						
+						
 						<div class="row marginTopBottomByTenAndSides">
-							
-							
-							
-							
-							<div class="col-12 showBoarder whiteColorBackground boldText">
+							<div class="col-12 showBoarder whiteColorBackground boldText boarderShadow">
 								Programming
 							</div>
-							
-							
-								
-							<ul style="text-align: left;">
+							<ul  class="marginTopByFive alignTextToLeft">
 								<li>Pakistan</li>
 								<li>India</li>
 								<li>Australia</li>
 							</ul>
-								
-								
-
-
-
-
-							
-
-							
-						</div>
+						</div><hr>
+						
+						
+						
+						
+						
+						
+						
+						<div class="row marginTopBottomByTenAndSides">
+							<div class="col-12 showBoarder whiteColorBackground boldText boarderShadow">
+								Programming
+							</div>
+							<ul  class="marginTopByFive alignTextToLeft">
+								<li>Pakistan</li>
+								<li>India</li>
+								<li>Australia</li>
+							</ul>
+						</div>						
+						
+						
+						
+						
+						
+						
 					</div>
 				</div>
 			</div>
