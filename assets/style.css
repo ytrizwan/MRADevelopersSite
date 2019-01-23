@@ -60,8 +60,8 @@ span.flip_text{
 
 /* Size of Jumbotron when Fixed header */
 @media (min-width: 1px){
-	.jumbotronOnTop {
-    	padding: 8rem 2rem;
+	body {
+    	padding-top: 3rem;
 	}
 }
 .jumbotronBoarderHead{
@@ -181,4 +181,11 @@ span.flip_text{
 
 .boarderShadow{
 	box-shadow: 3px 4px 2px #635f5f;
+}
+
+.lineHorizontalWithBlackColor {
+	background: black;
+	height: 1px;
+	margin-left: 20%;
+	margin-right: 20%;
 }

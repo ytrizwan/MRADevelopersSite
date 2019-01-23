@@ -50,13 +50,13 @@
 		</nav>
 
 		<!--Using Jumbotron at Top After The Header-->
-		<div class="jumbotron jumbotronWhiteColor disableHover jumbotronBoarderHead">
+		<div class="jumbotron jumbotronOnTop jumbotronWhiteColor disableHover jumbotronBoarderHead">
 			<h1 class="display-3 text-center responsiveTextSize">Welcome to <a href="index.php">
 				<span id="mraPart" class="logoStyle">M<span class="flip_text yellowColorText">R</span>A <span class="flip_text yellowColorText">D</span>evelopers</span>
 				</a></h1>
 			<br>
 			<div class="container">
-				<div class="lineHorizontalWithBlackColor"></div>
+				<div class="row showBoarder"></div>
 			</div><br>
 		</div>
 
