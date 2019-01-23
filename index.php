@@ -86,7 +86,7 @@
 
 					<div class="showBoarder eachMainPostUpperBottom lightBlueBackground boarderShadow">
 						<div class="row marginAllSidesByTen">
-							<div class="col-12 reponsiveTextSizeMaxTwentyTwo boldText"> This is Post Header India</div>
+							<div class="col-12 reponsiveTextSizeMaxTwentyTwo boldText"> This is Post Header Canberra</div>
 						</div>
 
 						<div class="row marginAllSidesByTen">
