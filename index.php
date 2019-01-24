@@ -52,7 +52,7 @@
 
 					<div class="showBoarder eachMainPostUpperBottom lightBlueBackground boarderShadow">
 						<div class="row marginAllSidesByTen">
-							<div class="col-12 reponsiveTextSizeMaxTwentyTwo boldText"> This is Post Header Hindi</div>
+							<div class="col-12 reponsiveTextSizeMaxTwentyTwo boldText"> This is Post Header Rizwan</div>
 						</div>
 
 						<div class="row marginAllSidesByTen">
