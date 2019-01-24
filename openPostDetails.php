@@ -93,7 +93,7 @@
 							Name: <span style="color: blue;">Muhammad Rizwan Asim</span>
 						</div>
 							<div class="CommentsStyle whiteColorBackground reponsiveTextSizeMaxSixteen">
-Since before Christmas, royal fans have questioned whether the two duchesses have been getting along, with rumours emerging that the sisters-in-law are “feuding”, The Sun reports. Now, royal experts have weighed in to claim Meghan — who has only been a member of the royal family for eight months — “never stood a chance” in the popularity stakes against Kate. Writing in the Guardian, Yomi Adegoke said: “Meghan’s casting as a Disney villain — a black female divorcee with a penchant for black dresses (another protocol breach) — practically writes itself.	
+								Since before Christmas, royal fans have questioned whether the two duchesses have been getting along, with rumours emerging that the sisters-in-law are “feuding”, The Sun reports. Now, royal experts have weighed in to claim Meghan — who has only been a member of the royal family for eight months — “never stood a chance” in the popularity stakes against Kate. Writing in the Guardian, Yomi Adegoke said: “Meghan’s casting as a Disney villain — a black female divorcee with a penchant for black dresses (another protocol breach) — practically writes itself.	
 							</div>
 						 
 						<div style="text-align: right;">
@@ -132,7 +132,7 @@ Since before Christmas, royal fans have questioned whether the two duchesses hav
 							Name: <span style="color: blue;">Muhammad Rizwan Asim</span>
 						</div>
 							<div class="CommentsStyle whiteColorBackground reponsiveTextSizeMaxSixteen">
-Since before Christmas, royal fans have questioned whether the two duchesses have been getting along, with rumours emerging that the sisters-in-law are “feuding”, The Sun reports. Now, royal experts have weighed in to claim Meghan — who has only been a member of the royal family for eight months — “never stood a chance” in the popularity stakes against Kate. Writing in the Guardian, Yomi Adegoke said: “Meghan’s casting as a Disney villain — a black female divorcee with a penchant for black dresses (another protocol breach) — practically writes itself.	
+								Since before Christmas, royal fans have questioned whether the two duchesses have been getting along, with rumours emerging that the sisters-in-law are “feuding”, The Sun reports. Now, royal experts have weighed in to claim Meghan — who has only been a member of the royal family for eight months — “never stood a chance” in the popularity stakes against Kate. Writing in the Guardian, Yomi Adegoke said: “Meghan’s casting as a Disney villain — a black female divorcee with a penchant for black dresses (another protocol breach) — practically writes itself.	
 							</div>
 						 
 						<div style="text-align: right;">
@@ -146,6 +146,26 @@ Since before Christmas, royal fans have questioned whether the two duchesses hav
 					
 					
 					
+					
+					
+					
+					<div class="col-12 showBoarderWithNoRadious marginTopBottomByTen boldText whiteTextWithBlackBackground boarderShadow">
+						Add New Comment
+					</div>
+					
+				
+					<div class=" eachMainPostUpperBottom " style="box-shadow: 0px 0px 50px black; margin: 10px;">
+						<div style="margin: 10px;">
+						<div class="boldText" style="text-align: left;">
+							Name: <span style="color: blue;">Muhammad Rizwan Asim</span>
+						</div>
+
+						 
+						<div style="text-align: right;">
+							Date: <span style="color: blue;">10/12/2019</span>
+						</div>
+							</div>
+					</div>
 					
 					
 					
