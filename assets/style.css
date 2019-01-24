@@ -82,6 +82,13 @@ span.flip_text{
 	border-radius: 15px;
 }
 
+.CommentsStyle{
+	margin: 4px;
+	border: 0.4px solid black;
+	border-radius: 15px;
+	box-shadow: -3px -3px 2px 0px #635f5f;
+}
+
 .showBoarderWithNoRadious{
 	border: 1px solid black;
 	border-radius: 0px;
@@ -188,4 +195,8 @@ span.flip_text{
 	height: 1px;
 	margin-left: 20%;
 	margin-right: 20%;
+}
+
+.radiusOfBoarder{
+	border-radius: 20px;
 }
