@@ -50,6 +50,7 @@
 		</nav>
 
 		<!--Using Jumbotron at Top After The Header-->
+<!--
 		<div class="jumbotron jumbotronWhiteColor disableHover jumbotronBoarderHead">
 			<h1 class="display-3 text-center responsiveTextSize">Welcome to <a href="index.php">
 				<span id="mraPart" class="logoStyle">M<span class="flip_text yellowColorText">R</span>A <span class="flip_text yellowColorText">D</span>evelopers</span>
@@ -59,6 +60,7 @@
 				<div class="lineHorizontalWithBlackColor"></div>
 			</div><br>
 		</div>
+-->
 
 
 
@@ -74,7 +76,7 @@
 			<div class="row text-center">
 				<div class="col-lg-8 col-12">
 					<div class="col-12 showBoarderWithNoRadious marginTopBottomByTen boldText whiteTextWithBlackBackground boarderShadow">
-						Latest Posts
+						Current Post
 					</div>
 
 
@@ -90,7 +92,7 @@
 						</div>
 
 						<div class="row marginAllSidesByTen">
-							<div class="col-lg-4 ">
+							<div class="col-lg-12 ">
 								<div class="whiteColorBackground">
 									<div style="background: black; border-radius: 10px;">
 										<img class="imageStyleOfPosts img-fluid" src="assets/images/dynamic/postMainImage/post01.jpg">
@@ -98,8 +100,8 @@
 									<h4 class="boldText reponsiveTextSizeMaxSixteen eachMainPostUpperBottom">This is Part Of Images</h4>
 								</div>
 							</div>
-							<div class="col-lg-1"></div>
-							<div class="col-lg-7 whiteColorBackground reponsiveTextSizeMaxSixteen justifiedParagraph">
+							<div class="col-lg-12"></div>
+							<div class="col-lg-12 whiteColorBackground reponsiveTextSizeMaxSixteen justifiedParagraph">
 								<p>Since before Christmas, royal fans have questioned whether the two duchesses have been getting along, with rumours emerging that the sisters-in-law are “feuding”, The Sun reports. Now, royal experts have weighed in to claim Meghan — who has only been a member of the royal family for eight months — “never stood a chance” in the popularity stakes against Kate. Writing in the Guardian, Yomi Adegoke said: “Meghan’s casting as a Disney villain — a black female divorcee with a penchant for black dresses (another protocol breach) — practically writes itself.</p>
 							</div>
 						</div>
@@ -108,9 +110,7 @@
 							<div class="col-6 alignLeft">
 								<span class="boldText">Date:</span> 22/01/2019
 							</div>
-							<div class="col-6 alignRight">
-								<a href="#">Open</a>
-							</div>
+							<div class="col-6 alignRight"></div>
 						</div>
 					</div>
 					<hr>
@@ -124,38 +124,6 @@
 
 
 
-					<div class="showBoarder eachMainPostUpperBottom lightBlueBackground boarderShadow">
-						<div class="row marginAllSidesByTen">
-							<div class="col-12 reponsiveTextSizeMaxTwentyTwo boldText">
-								This is Post Header
-							</div>
-						</div>
-
-						<div class="row marginAllSidesByTen">
-							<div class="col-lg-4 ">
-								<div class="whiteColorBackground">
-									<div style="background: black; border-radius: 10px;">
-										<img class="imageStyleOfPosts img-fluid" src="assets/images/dynamic/postMainImage/post02.jpg">
-									</div>
-									<h4 class="boldText reponsiveTextSizeMaxSixteen eachMainPostUpperBottom">This is Part Of Images</h4>
-								</div>
-							</div>
-							<div class="col-lg-1"></div>
-							<div class="col-lg-7 whiteColorBackground reponsiveTextSizeMaxSixteen justifiedParagraph">
-								<p>Since before Christmas, royal fans have questioned whether the two duchesses have been getting along, with rumours emerging that the sisters-in-law are “feuding”, The Sun reports. Now, royal experts have weighed in to claim Meghan — who has only been a member of the royal family for eight months — “never stood a chance” in the popularity stakes against Kate. Writing in the Guardian, Yomi Adegoke said: “Meghan’s casting as a Disney villain — a black female divorcee with a penchant for black dresses (another protocol breach) — practically writes itself.</p>
-							</div>
-						</div>
-
-						<div class="row marginAllSidesByTwenty whiteColorBackground lightBlueBackground">
-							<div class="col-6 alignLeft">
-								<span class="boldText">Date:</span> 22/01/2019
-							</div>
-							<div class="col-6 alignRight">
-								<a href="#">Open</a>
-							</div>
-						</div>
-					</div>
-					<hr>
 
 
 
@@ -166,32 +134,7 @@
 
 
 
-					<div>
-						<nav aria-label="Page navigation example text-center">
-							<ul class="pagination justify-content-center">
-								<li class="page-item">
-									<a class="page-link" href="#" aria-label="Previous">
-								 <span aria-hidden="true">&laquo;</span>
-								 <span class="sr-only">Previous</span>
-								 </a>
-								
-								</li>
-								<li class="page-item"><a class="page-link" href="#">1</a>
-								</li>
-								<li class="page-item"><a class="page-link" href="#">2</a>
-								</li>
-								<li class="page-item"><a class="page-link" href="#">3</a>
-								</li>
-								<li class="page-item">
-									<a class="page-link" href="#" aria-label="Next">
-								 <span aria-hidden="true">&raquo;</span>
-								 <span class="sr-only">Next</span>
-								 </a>
-								
-								</li>
-							</ul>
-						</nav>
-					</div>
+
 
 
 
