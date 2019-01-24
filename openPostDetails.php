@@ -47,8 +47,8 @@
 						</div>
 
 						<div class="row marginAllSidesByTen">
-							<div class="col-lg-12 ">
-								<div class="whiteColorBackground">
+							<div class="col-lg-12">
+								<div class="radiusOfBoarder">
 									<div style="background: black; border-radius: 10px;">
 										<img class="imageStyleOfPosts img-fluid" src="assets/images/dynamic/postMainImage/post01.jpg">
 									</div>
@@ -56,7 +56,7 @@
 								</div>
 							</div>
 							<div class="col-lg-12"></div>
-							<div class="col-lg-12 whiteColorBackground reponsiveTextSizeMaxSixteen justifiedParagraph">
+							<div class="col-lg-12 whiteColorBackground reponsiveTextSizeMaxSixteen justifiedParagraph radiusOfBoarder">
 								<p>Since before Christmas, royal fans have questioned whether the two duchesses have been getting along, with rumours emerging that the sisters-in-law are “feuding”, The Sun reports. Now, royal experts have weighed in to claim Meghan — who has only been a member of the royal family for eight months — “never stood a chance” in the popularity stakes against Kate. Writing in the Guardian, Yomi Adegoke said: “Meghan’s casting as a Disney villain — a black female divorcee with a penchant for black dresses (another protocol breach) — practically writes itself.</p>
 							</div>
 						</div>
@@ -73,6 +73,117 @@
 
 
 
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="col-12 showBoarderWithNoRadious marginTopBottomByTen boldText whiteTextWithBlackBackground boarderShadow">
+						Comments
+					</div>
+					
+					
+					
+					
+					
+					
+					<div class="showBoarder eachMainPostUpperBottom lightBlueBackground boarderShadow">
+						<div style="margin: 10px;">
+						<div class="boldText" style="text-align: left;">
+							Name: <span style="color: blue;">Muhammad Rizwan Asim</span>
+						</div>
+							<div class="CommentsStyle whiteColorBackground reponsiveTextSizeMaxSixteen">
+Since before Christmas, royal fans have questioned whether the two duchesses have been getting along, with rumours emerging that the sisters-in-law are “feuding”, The Sun reports. Now, royal experts have weighed in to claim Meghan — who has only been a member of the royal family for eight months — “never stood a chance” in the popularity stakes against Kate. Writing in the Guardian, Yomi Adegoke said: “Meghan’s casting as a Disney villain — a black female divorcee with a penchant for black dresses (another protocol breach) — practically writes itself.	
+							</div>
+						 
+						<div style="text-align: right;">
+							Date: <span style="color: blue;">10/12/2019</span>
+						</div>
+							</div>
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="showBoarder eachMainPostUpperBottom lightBlueBackground boarderShadow">
+						<div style="margin: 10px;">
+						<div class="boldText" style="text-align: left;">
+							Name: <span style="color: blue;">Muhammad Rizwan Asim</span>
+						</div>
+							<div class="CommentsStyle whiteColorBackground reponsiveTextSizeMaxSixteen">
+Since before Christmas, royal fans have questioned whether the two duchesses have been getting along, with rumours emerging that the sisters-in-law are “feuding”, The Sun reports. Now, royal experts have weighed in to claim Meghan — who has only been a member of the royal family for eight months — “never stood a chance” in the popularity stakes against Kate. Writing in the Guardian, Yomi Adegoke said: “Meghan’s casting as a Disney villain — a black female divorcee with a penchant for black dresses (another protocol breach) — practically writes itself.	
+							</div>
+						 
+						<div style="text-align: right;">
+							Date: <span style="color: blue;">10/12/2019</span>
+						</div>
+							</div>
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
 
 
 
