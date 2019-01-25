@@ -2,13 +2,10 @@
 <html>
 <head>
 	<title>MRA Developers</title>
-	<!--Bootstrap 4 Framwork Link and Javascript Animations for Bootstrap 4-->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-	<!--CSS Documentation Link-->
-	<link rel="stylesheet" type="text/css" href="assets/style.css">
+	<!--Common Libraries for Each Page-->
+	<?php
+	include "templates/commonTopLibraries.php";
+	?>
 </head>
 
 <body class="mainBackgroundColor">
@@ -81,26 +78,102 @@
 					
 					
 					
+					<div id="commentsHeader" class="col-12 showBoarderWithNoRadious marginTopBottomByTen boldText whiteTextWithBlackBackground boarderShadow">
+						Comments <span class="badge badge-light">2</span>
+					</div>
+					
+					
+					
+					<div id="commentsBlock">
+					
+					
+					<div class="showBoarder eachMainPostUpperBottom lightBlueBackground boarderShadow">
+						<div style="margin: 10px;">
+						<div class="boldText" style="text-align: left;">
+							Name: <span style="color: blue;">Muhammad Rizwan Asim</span>
+						</div>
+							<div class="CommentsStyle whiteColorBackground reponsiveTextSizeMaxSixteen">
+								Since before Christmas, royal fans have questioned whether the two duchesses have been getting along, with rumours emerging that the sisters-in-law are “feuding”, The Sun reports. Now, royal experts have weighed in to claim Meghan — who has only been a member of the royal family for eight months — “never stood a chance” in the popularity stakes against Kate. Writing in the Guardian, Yomi Adegoke said: “Meghan’s casting as a Disney villain — a black female divorcee with a penchant for black dresses (another protocol breach) — practically writes itself.	
+							</div>
+						 
+						<div style="text-align: right;">
+							Date: <span style="color: blue;">10/12/2019</span>
+						</div>
+							</div>
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="showBoarder eachMainPostUpperBottom lightBlueBackground boarderShadow">
+						<div style="margin: 10px;">
+						<div class="boldText" style="text-align: left;">
+							Name: <span style="color: blue;">Muhammad Rizwan Asim</span>
+						</div>
+							<div class="CommentsStyle whiteColorBackground reponsiveTextSizeMaxSixteen">
+								Since before Christmas, royal fans have questioned whether the two duchesses have been getting along, with rumours emerging that the sisters-in-law are “feuding”, The Sun reports. Now, royal experts have weighed in to claim Meghan — who has only been a member of the royal family for eight months — “never stood a chance” in the popularity stakes against Kate. Writing in the Guardian, Yomi Adegoke said: “Meghan’s casting as a Disney villain — a black female divorcee with a penchant for black dresses (another protocol breach) — practically writes itself.	
+							</div>
+						 
+						<div style="text-align: right;">
+							Date: <span style="color: blue;">10/12/2019</span>
+						</div>
+							</div>
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
 					<div class="col-12 showBoarderWithNoRadious marginTopBottomByTen boldText whiteTextWithBlackBackground boarderShadow">
-						Comments
+						Add New Comment
 					</div>
 					
-					
-					
-					
-					
-					
-					<div class="showBoarder eachMainPostUpperBottom lightBlueBackground boarderShadow">
+				
+					<div class=" eachMainPostUpperBottom " style="box-shadow: 0px 0px 50px black; margin: 20px 5px;"><br>
 						<div style="margin: 10px;">
-						<div class="boldText" style="text-align: left;">
-							Name: <span style="color: blue;">Muhammad Rizwan Asim</span>
+						<div class="boldText" style="text-align: left; margin: 10px;">
+							<input type="text" class="form-control" placeholder="Name">
 						</div>
-							<div class="CommentsStyle whiteColorBackground reponsiveTextSizeMaxSixteen">
-Since before Christmas, royal fans have questioned whether the two duchesses have been getting along, with rumours emerging that the sisters-in-law are “feuding”, The Sun reports. Now, royal experts have weighed in to claim Meghan — who has only been a member of the royal family for eight months — “never stood a chance” in the popularity stakes against Kate. Writing in the Guardian, Yomi Adegoke said: “Meghan’s casting as a Disney villain — a black female divorcee with a penchant for black dresses (another protocol breach) — practically writes itself.	
+						<div style="margin: 10px;">
+							<label >Add Comment:</label>
+							<textarea class="form-control" rows = 5>
+							
+							</textarea>
 							</div>
 						 
-						<div style="text-align: right;">
-							Date: <span style="color: blue;">10/12/2019</span>
+						<div style="text-align: right; padding: 20px 10px;">
+							<button type="button" class="btn btn-primary">Primary</button>
 						</div>
 							</div>
 					</div>
@@ -110,52 +183,7 @@ Since before Christmas, royal fans have questioned whether the two duchesses hav
 					
 					
 					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					<div class="showBoarder eachMainPostUpperBottom lightBlueBackground boarderShadow">
-						<div style="margin: 10px;">
-						<div class="boldText" style="text-align: left;">
-							Name: <span style="color: blue;">Muhammad Rizwan Asim</span>
-						</div>
-							<div class="CommentsStyle whiteColorBackground reponsiveTextSizeMaxSixteen">
-Since before Christmas, royal fans have questioned whether the two duchesses have been getting along, with rumours emerging that the sisters-in-law are “feuding”, The Sun reports. Now, royal experts have weighed in to claim Meghan — who has only been a member of the royal family for eight months — “never stood a chance” in the popularity stakes against Kate. Writing in the Guardian, Yomi Adegoke said: “Meghan’s casting as a Disney villain — a black female divorcee with a penchant for black dresses (another protocol breach) — practically writes itself.	
-							</div>
-						 
-						<div style="text-align: right;">
-							Date: <span style="color: blue;">10/12/2019</span>
-						</div>
-							</div>
 					</div>
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
 					
 					
 					
@@ -263,6 +291,14 @@ Since before Christmas, royal fans have questioned whether the two duchesses hav
 		include "templates/footerTemplate.php";
 		?>
 	</div>
+	
+	<script type="text/javascript">
+		//Hide and Show Comments Block
+		$("#commentsBlock").hide();
+		$("#commentsHeader").click(function(){
+			$("#commentsBlock").toggle("slow");
+		});
+	</script>
 </body>
 </html>
 </html>
