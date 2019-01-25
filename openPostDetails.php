@@ -78,13 +78,13 @@
 					
 					
 					
-					<div class="col-12 showBoarderWithNoRadious marginTopBottomByTen boldText whiteTextWithBlackBackground boarderShadow">
-						Comments
+					<div id="commentsHeader" class="col-12 showBoarderWithNoRadious marginTopBottomByTen boldText whiteTextWithBlackBackground boarderShadow">
+						Comments <span class="badge badge-light">2</span>
 					</div>
 					
 					
 					
-					
+					<div id="commentsBlock">
 					
 					
 					<div class="showBoarder eachMainPostUpperBottom lightBlueBackground boarderShadow">
@@ -140,6 +140,12 @@
 						</div>
 							</div>
 					</div>
+					
+					
+					
+					
+					
+					
 					
 					
 					
@@ -154,15 +160,20 @@
 					</div>
 					
 				
-					<div class=" eachMainPostUpperBottom " style="box-shadow: 0px 0px 50px black; margin: 10px;">
+					<div class=" eachMainPostUpperBottom " style="box-shadow: 0px 0px 50px black; margin: 20px 5px;"><br>
 						<div style="margin: 10px;">
-						<div class="boldText" style="text-align: left;">
-							Name: <span style="color: blue;">Muhammad Rizwan Asim</span>
+						<div class="boldText" style="text-align: left; margin: 10px;">
+							<input type="text" class="form-control" placeholder="Name">
 						</div>
-
+						<div style="margin: 10px;">
+							<label >Add Comment:</label>
+							<textarea class="form-control" rows = 5>
+							
+							</textarea>
+							</div>
 						 
-						<div style="text-align: right;">
-							Date: <span style="color: blue;">10/12/2019</span>
+						<div style="text-align: right; padding: 20px 10px;">
+							<button type="button" class="btn btn-primary">Primary</button>
 						</div>
 							</div>
 					</div>
@@ -172,7 +183,7 @@
 					
 					
 					
-					
+					</div>
 					
 					
 					
@@ -280,6 +291,14 @@
 		include "templates/footerTemplate.php";
 		?>
 	</div>
+	
+	<script type="text/javascript">
+		//Hide and Show Comments Block
+		$("#commentsBlock").hide();
+		$("#commentsHeader").click(function(){
+			$("#commentsBlock").toggle("slow");
+		});
+	</script>
 </body>
 </html>
 </html>
