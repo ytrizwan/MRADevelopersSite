@@ -173,7 +173,7 @@
 							</div>
 						 
 						<div style="text-align: right; padding: 20px 10px;">
-							<button type="button" class="btn btn-primary">Primary</button>
+							<button type="button" class="btn btn-primary">Post</button>
 						</div>
 							</div>
 					</div>
