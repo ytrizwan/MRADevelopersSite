@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark disableHoverTopLogo">
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark disableHover">
 	<a class="navbar-brand" href="index.php">
 				<span id="mraPart" class="logoStyle"><span class="flip_text">ARM</span><span class="redColorText">4</span><span class="flip_text">D</span>evelopers</span>
 			</a>
@@ -42,7 +42,7 @@
 		</ul>
 		<form class="form-inline my-2 my-lg-0">
 			<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-			<button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
+			<button class="btn btn-light my-2 my-sm-0" type="submit">Search</button>
 		</form>
 	</div>
 </nav>

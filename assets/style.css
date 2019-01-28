@@ -53,10 +53,6 @@ span.flip_text{
 .logoStyleTopLogo{
 	font-weight: bold;
 }
-.disableHoverTopLogo a span:hover{
-	color: rgb(255, 205, 59);
-}
-
 
 /* Size of Jumbotron when Fixed header */
 @media (min-width: 1px){
