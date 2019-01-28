@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark disableHoverTopLogo">
 	<a class="navbar-brand" href="index.php">
-				<span id="mraPart" class="logoStyleTopLogo">M<span class="flip_text yellowColorText">R</span>A <span class="flip_text yellowColorText">D</span>evelopers</span>
+				<span id="mraPart" class="logoStyle"><span class="flip_text">ARM</span><span class="redColorText">4</span><span class="flip_text">D</span>evelopers</span>
 			</a>
 
 

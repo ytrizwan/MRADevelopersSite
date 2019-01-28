@@ -200,3 +200,9 @@ span.flip_text{
 .radiusOfBoarder{
 	border-radius: 20px;
 }
+
+.redColorText {
+	color: red;
+}
+
+

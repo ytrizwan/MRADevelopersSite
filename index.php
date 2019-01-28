@@ -18,7 +18,7 @@
 		<!--Using Jumbotron at Top After The Header-->
 		<div class="jumbotron jumbotronWhiteColor disableHover jumbotronBoarderHead">
 			<h1 class="display-3 text-center responsiveTextSize">Welcome to <a href="index.php">
-				<span id="mraPart" class="logoStyle">M<span class="flip_text yellowColorText">R</span>A <span class="flip_text yellowColorText">D</span>evelopers</span>
+				<span id="mraPart" class="logoStyle"><span class="flip_text">ARM</span><span class="redColorText">4</span><span class="flip_text">D</span>evelopers</span>
 				</a></h1>
 			<br>
 			<div class="container">
