@@ -213,7 +213,7 @@
 
 
 
-				<div class="col-lg-4 col-12">
+				<div id="mainPost" class="col-lg-4 col-12">
 
 					<div class="col-12 showBoarderWithNoRadious marginTopBottomByTen boldText whiteTextWithBlackBackground boarderShadow">
 						Main Posts
