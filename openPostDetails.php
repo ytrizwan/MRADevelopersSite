@@ -78,20 +78,20 @@
 					
 					
 					
-					<div id="commentsHeader" class="col-12 showBoarderWithNoRadious marginTopBottomByTen boldText whiteTextWithBlackBackground boarderShadow">
-						<div class="row" style="text-align: center;">
-							<div class="col-4" style="text-align: center;">
-							
+					<div id="commentsHeader" class="col-12 showBoarderWithNoRadious marginTopBottomByTen boldText whiteTextWithBlackBackground boarderShadow disableHover">
+							<div class="row" style="text-align: center;">
+								<div class="col-4" style="text-align: center;">
+
+								</div>
+
+								<div class="col-4" style="text-align: center;">
+									Comments <span class="badge badge-light">2</span>
+								</div>
+
+								<div id="showHideLabel" class="col-4" style="text-align: right;">
+									Show
+								</div>
 							</div>
-							
-							<div class="col-4" style="text-align: center;">
-								Comments <span class="badge badge-light">2</span>
-							</div>
-							
-							<div id="showHideLabel" class="col-4" style="text-align: right;">
-								Show
-							</div>
-						</div>
 					</div>
 					
 					
@@ -330,8 +330,8 @@
 				$("#showHideLabel").text("Show");
 				switchShowHide = true;
 			}
-//			$("#commentsBlock").toggle("slow");
 		});
+		
 	</script>
 </body>
 </html>

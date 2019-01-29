@@ -34,6 +34,11 @@ span.flip_text{
 }
 
 /* White Color Text */
+.whiteColorText{
+	color: white;
+}
+
+/* White Color Background */
 .whiteColorBackground{
 	background: white;
 }
