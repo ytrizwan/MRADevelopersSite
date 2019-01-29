@@ -84,11 +84,11 @@
 
 								</div>
 
-								<div class="col-4" style="text-align: center;">
+								<div class="col-4 reponsiveTextSizeMaxSixteen" style="text-align: center;">
 									Comments <span class="badge badge-light">2</span>
 								</div>
 
-								<div id="showHideLabel" class="col-4" style="text-align: right;">
+								<div id="showHideLabel" class="col-4 reponsiveTextSizeMaxSixteen" style="text-align: right;">
 									Show
 								</div>
 							</div>
@@ -306,9 +306,8 @@
 				switchShowHide = true;
 			}
 		});
-
 	</script>
-	
+	<script type="text/javascript" src="assets/scripts.js"></script>
 </body>
 </html>
 </html>

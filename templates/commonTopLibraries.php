@@ -15,14 +15,3 @@
 
 <!--CSS Documentation Link-->
 <link rel="stylesheet" type="text/css" href="assets/style.css">
-
-	<script>
-		//Hide and Show Main Post Side
-		$(window).resize(function() {
-			if($(window).width() <= 977){
-				$("#mainPost").hide();
-			}else{
-				$("#mainPost").show();
-			}
-		});
-	</script>
