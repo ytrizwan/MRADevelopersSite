@@ -79,7 +79,19 @@
 					
 					
 					<div id="commentsHeader" class="col-12 showBoarderWithNoRadious marginTopBottomByTen boldText whiteTextWithBlackBackground boarderShadow">
-						Comments <span class="badge badge-light">2</span>
+						<div class="row" style="text-align: center;">
+							<div class="col-4" style="text-align: center;">
+							
+							</div>
+							
+							<div class="col-4" style="text-align: center;">
+								Comments <span class="badge badge-light">2</span>
+							</div>
+							
+							<div id="showHideLabel" class="col-4" style="text-align: right;">
+								Show
+							</div>
+						</div>
 					</div>
 					
 					
@@ -292,11 +304,33 @@
 		?>
 	</div>
 	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
 	<script type="text/javascript">
 		//Hide and Show Comments Block
+		var switchShowHide = true;
 		$("#commentsBlock").hide();
+		$("#showHideLabel").text("Show");
+		
 		$("#commentsHeader").click(function(){
-			$("#commentsBlock").toggle("slow");
+			if(switchShowHide == true){
+				$("#commentsBlock").show("slow");
+				$("#showHideLabel").text("Hide");
+				switchShowHide = false;
+			}else{
+				$("#commentsBlock").hide("slow");
+				$("#showHideLabel").text("Show");
+				switchShowHide = true;
+			}
+//			$("#commentsBlock").toggle("slow");
 		});
 	</script>
 </body>
