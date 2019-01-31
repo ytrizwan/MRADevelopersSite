@@ -47,7 +47,7 @@
 							<div class="col-lg-12">
 								<div class="radiusOfBoarder">
 									<div style="background: black; border-radius: 10px;">
-										<img class="imageStyleOfPosts img-fluid" src="assets/images/dynamic/postMainImage/post01.jpg">
+										<img alt="PostImage" class="imageStyleOfPosts img-fluid" src="assets/images/dynamic/postMainImage/post01.jpg">
 									</div>
 									<h4 class="boldText reponsiveTextSizeMaxSixteen eachMainPostUpperBottom">This is Part Of Images</h4>
 								</div>

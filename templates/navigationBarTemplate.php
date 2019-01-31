@@ -1,6 +1,8 @@
 <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark disableHover">
 	<a class="navbar-brand" href="index.php">
-				<span id="mraPart" class="logoStyle"><span class="flip_text">ARM</span><span class="redColorText">4</span><span class="flip_text">D</span>evelopers</span>
+				<?php
+					include "templates/mra4developersLogo.php";
+				?>
 			</a>
 
 
@@ -20,9 +22,9 @@
 			</li>
 			
 			<li class="nav-item dropdown">
-				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Programs</a>
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPrograms" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Programs</a>
 
-				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				<div class="dropdown-menu" aria-labelledby="navbarDropdownPrograms">
 					<a class="dropdown-item" href="#">Android</a>
 					<a class="dropdown-item" href="#">Java</a>
 					<a class="dropdown-item" href="#">PHP</a>
@@ -30,9 +32,9 @@
 			</li>
 			
 			<li class="nav-item dropdown">
-				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Info</a>
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownInfo" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Info</a>
 
-				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				<div class="dropdown-menu" aria-labelledby="navbarDropdownInfo">
 					<a class="dropdown-item" href="#">About Us</a>
 					<div class="dropdown-divider"></div>
 					<a class="dropdown-item" href="#">Curriculum vitae (CV)</a>

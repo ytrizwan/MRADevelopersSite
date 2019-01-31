@@ -18,7 +18,9 @@
 		<!--Using Jumbotron at Top After The Header-->
 		<div class="jumbotron jumbotronWhiteColor disableHover jumbotronBoarderHead">
 			<h1 class="display-3 text-center responsiveTextSize">Welcome to <a href="index.php">
-				<span id="mraPart" class="logoStyle"><span class="flip_text">ARM</span><span class="redColorText">4</span><span class="flip_text">D</span>evelopers</span>
+				<?php
+					include "templates/mra4developersLogo.php";
+				?>
 				</a></h1>
 			<br>
 			<div class="container">
@@ -59,7 +61,7 @@
 							<div class="col-lg-4 ">
 								<div class="radiusOfBoarder">
 									<div style="background: black; border-radius: 10px;">
-										<img class="imageStyleOfPosts img-fluid" src="assets/images/dynamic/postMainImage/post01.jpg">
+										<img class="imageStyleOfPosts img-fluid" src="assets/images/dynamic/postMainImage/post01.jpg" alt="PostImage">
 									</div>
 									<h4 class="boldText reponsiveTextSizeMaxSixteen eachMainPostUpperBottom">This is Part Of Images</h4>
 								</div>
@@ -109,7 +111,7 @@
 							<div class="col-lg-4 ">
 								<div class="radiusOfBoarder">
 									<div style="background: black; border-radius: 10px;">
-										<img class="imageStyleOfPosts img-fluid" src="assets/images/dynamic/postMainImage/post03.jpg">
+										<img class="imageStyleOfPosts img-fluid" src="assets/images/dynamic/postMainImage/post03.jpg" alt="PostImage">
 									</div>
 									<h4 class="boldText reponsiveTextSizeMaxSixteen eachMainPostUpperBottom">This is Part Of Images</h4>
 								</div>

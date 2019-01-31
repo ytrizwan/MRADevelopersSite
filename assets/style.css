@@ -50,7 +50,13 @@ span.flip_text{
 .disableHover a:hover{
 	text-decoration:none;
 }
+/*
 .disableHover a #mraPart:hover{
+	color: rgb(255, 205, 59);
+}
+*/
+
+.disableHover a span:first-of-type:hover{
 	color: rgb(255, 205, 59);
 }
 
