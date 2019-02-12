@@ -245,4 +245,3 @@
 	<script type="text/javascript" src="assets/scripts.js"></script>
 </body>
 </html>
-</html>

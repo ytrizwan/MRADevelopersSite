@@ -37,7 +37,7 @@
 				<div class="dropdown-menu" aria-labelledby="navbarDropdownInfo">
 					<a class="dropdown-item" href="#">About Us</a>
 					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="#">Curriculum vitae (CV)</a>
+					<a class="dropdown-item" href="curriculumVitae.php">Curriculum vitae (CV)</a>
 				</div>
 			</li>
 			
