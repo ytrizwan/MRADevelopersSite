@@ -15,7 +15,8 @@
 		include "templates/navigationBarTemplate.php";
 		?>
 
-
+		
+		
 
 
 
@@ -26,9 +27,13 @@
 		<!--Main Middle Block, Where I put All Elements-->
 		<div class="container mainContainer marginTopByFive">
 			<div class="row text-center">
-
+				<div class="col-4 marginTopByTwenty" style="background: #777777">
+					<img class="imageStyleOfCV img-fluid rounded-circle" alt="rizwan" src="assets/images/static/rizwan.jpg">
+				</div>
 				
-				
+				<div class="col-8 marginTopByTwenty">
+					India
+				</div>
 				
 				
 				

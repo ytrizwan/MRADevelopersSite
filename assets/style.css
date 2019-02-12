@@ -133,6 +133,11 @@ span.flip_text{
 .marginTopByFive{
 	margin-top: 5px;
 }
+
+.marginTopByTwenty{
+	margin-top: 20px;
+}
+
 .eachMainPostUpperBottom{
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -146,6 +151,14 @@ span.flip_text{
     margin-top: 15px;
 	margin-bottom: 15px;
 	border-radius: 10px;
+}
+
+.imageStyleOfCV{
+    margin-top: 15px;
+	margin-bottom: 15px;
+	border-radius: 50px;
+	max-height: 200px;
+	max-width: 200px;
 }
 
 .reponsiveTextSizeMaxTwentyTwo {
