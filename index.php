@@ -18,7 +18,9 @@
 		<!--Using Jumbotron at Top After The Header-->
 		<div class="jumbotron jumbotronWhiteColor disableHover jumbotronBoarderHead">
 			<h1 class="display-3 text-center responsiveTextSize">Welcome to <a href="index.php">
-				<span id="mraPart" class="logoStyle">M<span class="flip_text yellowColorText">R</span>A <span class="flip_text yellowColorText">D</span>evelopers</span>
+				<?php
+					include "templates/mra4developersLogo.php";
+				?>
 				</a></h1>
 			<br>
 			<div class="container">
@@ -59,7 +61,7 @@
 							<div class="col-lg-4 ">
 								<div class="radiusOfBoarder">
 									<div style="background: black; border-radius: 10px;">
-										<img class="imageStyleOfPosts img-fluid" src="assets/images/dynamic/postMainImage/post01.jpg">
+										<img class="imageStyleOfPosts img-fluid" src="assets/images/dynamic/postMainImage/post01.jpg" alt="PostImage">
 									</div>
 									<h4 class="boldText reponsiveTextSizeMaxSixteen eachMainPostUpperBottom">This is Part Of Images</h4>
 								</div>
@@ -109,7 +111,7 @@
 							<div class="col-lg-4 ">
 								<div class="radiusOfBoarder">
 									<div style="background: black; border-radius: 10px;">
-										<img class="imageStyleOfPosts img-fluid" src="assets/images/dynamic/postMainImage/post03.jpg">
+										<img class="imageStyleOfPosts img-fluid" src="assets/images/dynamic/postMainImage/post03.jpg" alt="PostImage">
 									</div>
 									<h4 class="boldText reponsiveTextSizeMaxSixteen eachMainPostUpperBottom">This is Part Of Images</h4>
 								</div>
@@ -213,55 +215,15 @@
 
 
 
-				<div class="col-lg-4 col-12">
-
-					<div class="col-12 showBoarderWithNoRadious marginTopBottomByTen boldText whiteTextWithBlackBackground boarderShadow">
-						Main Posts
-					</div>
-
-					<div class="col-12 showBoarder lightBlueBackground marginTopBottomByTen boarderShadow">
-
-
-
-
-
-
-						<div class="row marginTopBottomByTenAndSides">
-							<div class="col-12 showBoarder whiteColorBackground boldText boarderShadow">
-								Programming
-							</div>
-							<ul class="marginTopByFive alignTextToLeft">
-								<li>Pakistan</li>
-								<li>India</li>
-								<li>Australia</li>
-							</ul>
-						</div>
-						<hr>
-
-
-
-
-
-
-
-						<div class="row marginTopBottomByTenAndSides">
-							<div class="col-12 showBoarder whiteColorBackground boldText boarderShadow">
-								Programming
-							</div>
-							<ul class="marginTopByFive alignTextToLeft">
-								<li>Pakistan</li>
-								<li>India</li>
-								<li>Australia</li>
-							</ul>
-						</div>
-
-
-
-
-
-
-					</div>
-				</div>
+				<?php
+					include "templates/sideBarTemplate.php";
+				?>
+				
+				
+				
+				
+				
+				
 			</div>
 		</div>
 
@@ -279,6 +241,7 @@
 		include "templates/footerTemplate.php";
 		?>
 	</div>
+	
+	<script type="text/javascript" src="assets/scripts.js"></script>
 </body>
-</html>
 </html>

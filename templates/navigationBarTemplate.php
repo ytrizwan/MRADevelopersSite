@@ -1,6 +1,8 @@
-<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark disableHoverTopLogo">
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark disableHover">
 	<a class="navbar-brand" href="index.php">
-				<span id="mraPart" class="logoStyleTopLogo">M<span class="flip_text yellowColorText">R</span>A <span class="flip_text yellowColorText">D</span>evelopers</span>
+				<?php
+					include "templates/mra4developersLogo.php";
+				?>
 			</a>
 
 
@@ -14,23 +16,35 @@
 			<li class="nav-item active">
 				<a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
 			</li>
+			
+			<li class="nav-item">
+				<a class="nav-link" href="#">Techniques</a>
+			</li>
+			
 			<li class="nav-item dropdown">
-				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Programming</a>
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPrograms" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Programs</a>
 
-				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-					<a class="dropdown-item" href="#">Action</a>
-					<a class="dropdown-item" href="#">Another action</a>
-					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="#">Something else here</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdownPrograms">
+					<a class="dropdown-item" href="#">Android</a>
+					<a class="dropdown-item" href="#">Java</a>
+					<a class="dropdown-item" href="#">PHP</a>
 				</div>
 			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">About</a>
+			
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownInfo" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Info</a>
+
+				<div class="dropdown-menu" aria-labelledby="navbarDropdownInfo">
+					<a class="dropdown-item" href="#">About Us</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="curriculumVitae.php">Curriculum vitae (CV)</a>
+				</div>
 			</li>
+			
 		</ul>
 		<form class="form-inline my-2 my-lg-0">
 			<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-			<button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
+			<button class="btn btn-light my-2 my-sm-0" type="submit">Search</button>
 		</form>
 	</div>
 </nav>

@@ -34,6 +34,11 @@ span.flip_text{
 }
 
 /* White Color Text */
+.whiteColorText{
+	color: white;
+}
+
+/* White Color Background */
 .whiteColorBackground{
 	background: white;
 }
@@ -45,7 +50,13 @@ span.flip_text{
 .disableHover a:hover{
 	text-decoration:none;
 }
+/*
 .disableHover a #mraPart:hover{
+	color: rgb(255, 205, 59);
+}
+*/
+
+.disableHover a span:first-of-type:hover{
 	color: rgb(255, 205, 59);
 }
 
@@ -53,10 +64,6 @@ span.flip_text{
 .logoStyleTopLogo{
 	font-weight: bold;
 }
-.disableHoverTopLogo a span:hover{
-	color: rgb(255, 205, 59);
-}
-
 
 /* Size of Jumbotron when Fixed header */
 @media (min-width: 1px){
@@ -200,3 +207,9 @@ span.flip_text{
 .radiusOfBoarder{
 	border-radius: 20px;
 }
+
+.redColorText {
+	color: red;
+}
+
+

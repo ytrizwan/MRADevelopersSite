@@ -47,7 +47,7 @@
 							<div class="col-lg-12">
 								<div class="radiusOfBoarder">
 									<div style="background: black; border-radius: 10px;">
-										<img class="imageStyleOfPosts img-fluid" src="assets/images/dynamic/postMainImage/post01.jpg">
+										<img alt="PostImage" class="imageStyleOfPosts img-fluid" src="assets/images/dynamic/postMainImage/post01.jpg">
 									</div>
 									<h4 class="boldText reponsiveTextSizeMaxSixteen eachMainPostUpperBottom">This is Part Of Images</h4>
 								</div>
@@ -78,8 +78,20 @@
 					
 					
 					
-					<div id="commentsHeader" class="col-12 showBoarderWithNoRadious marginTopBottomByTen boldText whiteTextWithBlackBackground boarderShadow">
-						Comments <span class="badge badge-light">2</span>
+					<div id="commentsHeader" class="col-12 showBoarderWithNoRadious marginTopBottomByTen boldText whiteTextWithBlackBackground boarderShadow disableHover">
+							<div class="row" style="text-align: center;">
+								<div class="col-4" style="text-align: center;">
+
+								</div>
+
+								<div class="col-4 reponsiveTextSizeMaxSixteen" style="text-align: center;">
+									Comments <span class="badge badge-light">2</span>
+								</div>
+
+								<div id="showHideLabel" class="col-4 reponsiveTextSizeMaxSixteen" style="text-align: right;">
+									Show
+								</div>
+							</div>
 					</div>
 					
 					
@@ -173,7 +185,7 @@
 							</div>
 						 
 						<div style="text-align: right; padding: 20px 10px;">
-							<button type="button" class="btn btn-primary">Primary</button>
+							<button type="button" class="btn btn-primary">Post</button>
 						</div>
 							</div>
 					</div>
@@ -225,66 +237,15 @@
 
 
 
-				<div class="col-lg-4 col-12">
-
-					<div class="col-12 showBoarderWithNoRadious marginTopBottomByTen boldText whiteTextWithBlackBackground boarderShadow">
-						Main Posts
-					</div>
-
-					<div class="col-12 showBoarder lightBlueBackground marginTopBottomByTen boarderShadow">
-
-
-
-
-
-
-						<div class="row marginTopBottomByTenAndSides">
-							<div class="col-12 showBoarder whiteColorBackground boldText boarderShadow">
-								Programming
-							</div>
-							<ul class="marginTopByFive alignTextToLeft">
-								<li>Pakistan</li>
-								<li>India</li>
-								<li>Australia</li>
-							</ul>
-						</div>
-						<hr>
-
-
-
-
-
-
-
-						<div class="row marginTopBottomByTenAndSides">
-							<div class="col-12 showBoarder whiteColorBackground boldText boarderShadow">
-								Programming
-							</div>
-							<ul class="marginTopByFive alignTextToLeft">
-								<li>Pakistan</li>
-								<li>India</li>
-								<li>Australia</li>
-							</ul>
-						</div>
-
-
-
-
-
-
-					</div>
-				</div>
+				<?php
+					include "templates/sideBarTemplate.php";
+				?>
+				
+				
+				
+				
 			</div>
 		</div>
-
-
-
-
-
-
-
-
-
 
 		<!--Using Jumbotron as Footer-->
 		<?php
@@ -292,13 +253,34 @@
 		?>
 	</div>
 	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
 	<script type="text/javascript">
 		//Hide and Show Comments Block
+		var switchShowHide = true;
 		$("#commentsBlock").hide();
+		$("#showHideLabel").text("Show");
+		
 		$("#commentsHeader").click(function(){
-			$("#commentsBlock").toggle("slow");
+			if(switchShowHide == true){
+				$("#commentsBlock").show("slow");
+				$("#showHideLabel").text("Hide");
+				switchShowHide = false;
+			}else{
+				$("#commentsBlock").hide("slow");
+				$("#showHideLabel").text("Show");
+				switchShowHide = true;
+			}
 		});
 	</script>
+	<script type="text/javascript" src="assets/scripts.js"></script>
 </body>
-</html>
 </html>
