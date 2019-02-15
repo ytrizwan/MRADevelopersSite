@@ -15,35 +15,18 @@
 		include "templates/navigationBarTemplate.php";
 		?>
 
-		
-		
-
-
-
-
-
-
-
 		<!--Main Middle Block, Where I put All Elements-->
-		<div class="container mainContainer marginTopByFive">
+		<div class="container mainContainer marginTopByFive showBoarderLeftRight">
 			<div class="row text-center">
-				<div class="col-4 marginTopByTwenty" style="background: #777777">
+				<div class="col-4" style="background: #7543ad; padding-top: 50px; min-height: 1000px;">
 					<img class="imageStyleOfCV img-fluid rounded-circle" alt="rizwan" src="assets/images/static/rizwan.jpg">
 				</div>
 				
-				<div class="col-8 marginTopByTwenty">
-					India
+				<div class="col-8 marginTopByTwenty" style="padding-top: 50px;">
+					<h1 class="brushFront">Muhammad Rizwan Asim</h1>
 				</div>
-				
-				
-				
 			</div>
 		</div>
-
-		<!--Using Jumbotron as Footer-->
-		<?php
-		include "templates/footerTemplate.php";
-		?>
 	</div>
 	
 	<script type="text/javascript">
