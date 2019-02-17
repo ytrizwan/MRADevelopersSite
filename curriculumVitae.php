@@ -55,7 +55,22 @@
 				
 				<div class="col-lg-8 marginTopByTwenty brushFront" style="padding-top: 50px; min-height: 1000px;">
 					<h1 class="reponsiveTextSizeMaxSixtyFive">Muhammad Rizwan Asim</h1>
-					<P class="reponsiveTextSizeMaxThirtyFive">Software Developer</P>
+					<P class="reponsiveTextSizeMaxFifteen">Software Developer</P>
+					<div style="background: #e4e4e4; border-bottom-left-radius: 50px; border-top-left-radius: 50px">
+						<table>
+							<tr>
+								<td>
+									<i class="fas fa-sign fa-2x" style="border-radius: 50%; border: 0px solid black; padding: 10px; background: white;"></i>
+								</td>
+								
+								<td>
+									<h2 style="font-weight: bold;"> OBJECTIVE</h2>
+								</td>
+							</tr>
+						</table>
+					</div>
+					
+					
 					
 				</div>
 			</div>

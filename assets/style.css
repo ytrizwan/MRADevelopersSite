@@ -194,6 +194,45 @@ span.flip_text{
 
 
 
+
+
+
+
+
+.reponsiveTextSizeMaxFifteen  {
+  font-size: 15px;
+}
+@media screen and (min-width: 320px) {
+  .reponsiveTextSizeMaxFifteen {
+    font-size: calc(15px + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  .reponsiveTextSizeMaxFifteen {
+    font-size: 15px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .reponsiveTextSizeMaxSixtyFive  {
   font-size: 65px;
 }
@@ -309,7 +348,7 @@ span.flip_text{
 }
 
 .brushFront{
-	font-family: Brush Script MT, Brush Script Std, cursive;
+	font-family: "Fira Sans", serif;
 }
 
 
