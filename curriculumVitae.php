@@ -60,7 +60,7 @@
 						<table>
 							<tr>
 								<td>
-									<i class="fas fa-sign fa-2x" style="border-radius: 50%; border: 0px solid black; padding: 10px; background: white;"></i>
+									<i class="fas fa-sign fa-2x" style="border-radius: 50%;padding: 10px; background: white;"></i>
 								</td>
 								
 								<td>
@@ -71,7 +71,27 @@
 					</div>
 					
 					<p class="reponsiveTextSizeMaxEighteen" style="text-align: justify; padding-left: 50px;">To be a part of an organization that provides an atmosphere of mutual growth and training, where I can show my talent and potential while applying my Computer Sciences, Information Technology qualifications and Interpersonal skills.</p>
-										
+					
+					
+					
+					<div style="background: #e4e4e4; border-bottom-left-radius: 50px; border-top-left-radius: 50px">
+						<table>
+							<tr>
+								<td>
+									<i class="fas fa-university fa-2x" style="border-radius: 50%; padding: 10px; background: white;"></i>
+								</td>
+								
+								<td>
+									<h2 style="font-weight: bold;"> OBJECTIVE</h2>
+								</td>
+							</tr>
+						</table>
+					</div>
+					
+					<p class="reponsiveTextSizeMaxEighteen" style="text-align: justify; padding-left: 50px;">To be a part of an organization that provides an atmosphere of mutual growth and training, where I can show my talent and potential while applying my Computer Sciences, Information Technology qualifications and Interpersonal skills.</p>
+					
+					
+					
 				</div>
 			</div>
 		</div>
