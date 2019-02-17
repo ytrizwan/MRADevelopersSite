@@ -40,7 +40,7 @@
 								<td class="text-center"><i class="fas fa-envelope"></i></td>
 								<td> ytrizwan@gmail.com </td>
 							</tr>
-						</table>
+						</table><br>
 						
 						
 						
@@ -70,8 +70,8 @@
 						</table>
 					</div>
 					
-					
-					
+					<p class="reponsiveTextSizeMaxEighteen" style="text-align: justify; padding-left: 50px;">To be a part of an organization that provides an atmosphere of mutual growth and training, where I can show my talent and potential while applying my Computer Sciences, Information Technology qualifications and Interpersonal skills.</p>
+										
 				</div>
 			</div>
 		</div>

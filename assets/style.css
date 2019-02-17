@@ -223,6 +223,20 @@ span.flip_text{
 
 
 
+.reponsiveTextSizeMaxEighteen {
+  font-size: 18px;
+}
+@media screen and (min-width: 320px) {
+  .reponsiveTextSizeMaxEighteen {
+    font-size: calc(18px + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  .reponsiveTextSizeMaxEighteen {
+    font-size: 21px;
+  }
+}
+
 
 
 
