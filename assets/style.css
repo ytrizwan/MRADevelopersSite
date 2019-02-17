@@ -47,6 +47,11 @@ span.flip_text{
 .responsiveTextSize{
 	font-size: 5vw;
 }
+
+.responsiveTextSizeOfTwo{
+	font-size: 2vw;
+}
+
 .disableHover a:hover{
 	text-decoration:none;
 }
@@ -183,6 +188,86 @@ span.flip_text{
   }
 }
 
+
+
+
+
+
+
+.reponsiveTextSizeMaxSixtyFive  {
+  font-size: 65px;
+}
+@media screen and (min-width: 768px) {
+  .reponsiveTextSizeMaxSixtyFive {
+    font-size: calc(65px + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  .reponsiveTextSizeMaxSixtyFive {
+    font-size: 65px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .reponsiveTextSizeMaxSixtyFive {
+    font-size: 7vw;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.reponsiveTextSizeMaxThirtyFive  {
+  font-size: 35px;
+}
+@media screen and (min-width: 769px) {
+  .reponsiveTextSizeMaxThirtyFive {
+    font-size: calc(35px + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  .reponsiveTextSizeMaxThirtyFive {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .reponsiveTextSizeMaxThirtyFive {
+    font-size: 5vw;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .justifiedParagraph{
 	text-align: justify;
 	font: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
@@ -226,3 +311,12 @@ span.flip_text{
 .brushFront{
 	font-family: Brush Script MT, Brush Script Std, cursive;
 }
+
+
+/*
+table, th, td {
+  border: 1px solid black;
+}
+*/
+
+
