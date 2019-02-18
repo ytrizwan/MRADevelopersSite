@@ -64,7 +64,7 @@
 								</td>
 								
 								<td>
-									<span class="reponsiveText_Size_MaxThirtyFive_MinFiveVM" style="font-weight: bold;"> OBJECTIVE</span>
+									<span class="reponsiveText_Size_MaxThirtyEight_MinFourVM" style="font-weight: bold;"> OBJECTIVE</span>
 								</td>
 							</tr>
 						</table>
@@ -82,26 +82,133 @@
 								</td>
 								
 								<td>
-									<span class="reponsiveText_Size_MaxThirtyFive_MinFiveVM" style="font-weight: bold;"> ACADEMIC ACHIEVEMENTS </span>
+									<span class="reponsiveText_Size_MaxThirtyEight_MinFourVM" style="font-weight: bold;"> ACADEMIC ACHIEVEMENTS </span>
 								</td>
 							</tr>
 						</table>
 					</div>
 					
-					<table width="100%" height="-10%">
-						<tr>
-							<td><span class="reponsiveText_Size_MaxEighteen_MinOneVW" style="text-align: justify; padding-left: 50px;">July 2018 - Dec 2018</span></td>
-							<td>
-								<span class="reponsiveText_Size_MaxEighteen_MinOneVW" style="text-align: justify; padding-left: 50px;">Diploma of Software Development</span>
-							</td>
-						</tr>
-						<tr>
-							<td></td>
-							<td><span class="reponsiveText_Size_MaxEighteen_MinOneVW" style="text-align: justify; padding-left: 50px; font-weight: bold; color: #7E7E7E;">Canberra Institute Of Technology (CIT)</span></td>
-						</tr>
-					</table>
+					<div class="row">
+						<div class="col-md-4 col-sm-12">
+							<span class="reponsiveText_Size_MaxEighteen_MinOneVW" style="text-align: justify; padding-left: 50px;">July 2018 - Dec 2018</span>
+						</div>
+						
+						<div class="col-md-8 col-sm-12" style="float: left;">
+							<span class="reponsiveText_Size_MaxEighteen_MinOneVW" style="float: left; text-align: left; padding-left: 50px;">Diploma of Software Development</span><br>
+							<span class="reponsiveText_Size_MaxEighteen_MinOneVW" style="float: left; text-align: left; padding-left: 50px; font-weight: bold; color: #7E7E7E;">Canberra Institute Of Technology (CIT)</span>
+						</div>
+					</div>
+					
+					<div class="container"><hr></div>
+					
+					
+					
+					
+					
+					
+					<div class="row">
+						<div class="col-md-4 col-sm-12">
+							<span class="reponsiveText_Size_MaxEighteen_MinOneVW" style="text-align: justify; padding-left: 50px;">Sep 2012 - Sep 2016</span>
+						</div>
+						
+						<div class="col-md-8 col-sm-12" style="float: left;">
+							<span class="reponsiveText_Size_MaxEighteen_MinOneVW" style="float: left; text-align: left; padding-left: 50px;">Bachelor of Science in Computer Science (4 Year Program)</span><br>
+							<span class="reponsiveText_Size_MaxEighteen_MinOneVW" style="float: left; text-align: left; padding-left: 50px; font-weight: bold; color: #7E7E7E;">Virtual University of Pakistan (VU)</span>
+						</div>
+					</div>
+					<div class="container"><hr></div>
+					
+					
+					
+					
+					
+					<div class="row">
+						<div class="col-md-4 col-sm-12">
+							<span class="reponsiveText_Size_MaxEighteen_MinOneVW" style="text-align: justify; padding-left: 50px;">2008 - 2010</span>
+						</div>
+						
+						<div class="col-md-8 col-sm-12" style="float: left;">
+							<span class="reponsiveText_Size_MaxEighteen_MinOneVW" style="float: left; text-align: left; padding-left: 50px;">Intermediate</span><br>
+							<span class="reponsiveText_Size_MaxEighteen_MinOneVW" style="float: left; text-align: left; padding-left: 50px; font-weight: bold; color: #7E7E7E;">Government College Township Lahore, Pakistan</span>
+						</div>
+					</div>
+					<div class="container"><hr></div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div style="background: #e4e4e4; border-bottom-left-radius: 50px; border-top-left-radius: 50px">
+						<table>
+							<tr>
+								<td>
+									<i class="fas fa-sign fa-2x" style="border-radius: 50%;padding: 10px; background: white;"></i>
+								</td>
+								
+								<td>
+									<span class="reponsiveText_Size_MaxThirtyEight_MinFourVM" style="font-weight: bold;"> OBJECTIVE</span>
+								</td>
+							</tr>
+						</table>
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+
 					 
 					
+					
+
 					
 					
 				</div>
