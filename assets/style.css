@@ -198,17 +198,42 @@ span.flip_text{
 
 
 
+.reponsiveText_Size_CV_Name  {
+  font-size: 55px;
+}
+@media screen and (max-width: 767px) {
+  .reponsiveText_Size_CV_Name {
+    font-size: 6vw;
+  }
+}
+@media screen and (min-width: 768px) {
+  .reponsiveText_Size_CV_Name {
+    font-size: calc(55px + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 990px) {
+  .reponsiveText_Size_CV_Name {
+    font-size: 55px;
+  }
+}
 
-.reponsiveTextSizeMaxFifteen  {
+
+
+
+
+
+
+
+.reponsiveText_Size_MaxFifteen_MinSeventeenVM  {
   font-size: 15px;
 }
 @media screen and (min-width: 320px) {
-  .reponsiveTextSizeMaxFifteen {
+  .reponsiveText_Size_MaxFifteen_MinSeventeenVM {
     font-size: calc(15px + 6 * ((100vw - 320px) / 680));
   }
 }
 @media screen and (min-width: 1000px) {
-  .reponsiveTextSizeMaxFifteen {
+  .reponsiveText_Size_MaxFifteen_MinSeventeenVM {
     font-size: 17px;
   }
 }
@@ -247,25 +272,6 @@ span.flip_text{
 
 
 
-.reponsiveTextSizeMaxSixtyFive  {
-  font-size: 65px;
-}
-@media screen and (min-width: 768px) {
-  .reponsiveTextSizeMaxSixtyFive {
-    font-size: calc(65px + 6 * ((100vw - 320px) / 680));
-  }
-}
-@media screen and (min-width: 1000px) {
-  .reponsiveTextSizeMaxSixtyFive {
-    font-size: 65px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .reponsiveTextSizeMaxSixtyFive {
-    font-size: 7vw;
-  }
-}
 
 
 
@@ -282,25 +288,72 @@ span.flip_text{
 
 
 
-.reponsiveTextSizeMaxThirtyFive  {
+
+
+
+
+
+
+.reponsiveText_Size_MaxThirtyFive_MinFiveVM {
   font-size: 35px;
 }
-@media screen and (min-width: 769px) {
-  .reponsiveTextSizeMaxThirtyFive {
-    font-size: calc(35px + 6 * ((100vw - 320px) / 680));
+@media screen and (max-width: 767px) {
+  .reponsiveText_Size_MaxThirtyFive_MinFiveVM {
+    font-size: 5vw;
   }
 }
-@media screen and (min-width: 1000px) {
-  .reponsiveTextSizeMaxThirtyFive {
+@media screen and (min-width: 768px) {
+  .reponsiveText_Size_MaxThirtyFive_MinFiveVM {
+    font-size: 5vw;
+  }
+}
+@media screen and (min-width: 990px) {
+  .reponsiveText_Size_MaxThirtyFive_MinFiveVM {
     font-size: 35px;
   }
 }
 
-@media screen and (max-width: 768px) {
-  .reponsiveTextSizeMaxThirtyFive {
-    font-size: 5vw;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.reponsiveText_Size_MaxEighteen_MinOneVW  {
+  font-size: 18px;
+}
+@media screen and (max-width: 400px) {
+  .reponsiveText_Size_MaxEighteen_MinOneVW {
+    font-size: 1vw;
   }
 }
+@media screen and (min-width: 401px) {
+  .reponsiveText_Size_MaxEighteen_MinOneVW {
+    font-size: 2vw;
+  }
+}
+@media screen and (min-width: 769px) {
+  .reponsiveText_Size_MaxEighteen_MinOneVW {
+    font-size: calc(18px + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  .reponsiveText_Size_MaxEighteen_MinOneVW {
+    font-size: 18px;
+  }
+}
+
+
+
+
 
 
 

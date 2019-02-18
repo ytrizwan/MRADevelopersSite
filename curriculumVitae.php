@@ -54,8 +54,8 @@
 				</div>
 				
 				<div class="col-lg-8 marginTopByTwenty brushFront" style="padding-top: 50px; min-height: 1000px;">
-					<h1 class="reponsiveTextSizeMaxSixtyFive">Muhammad Rizwan Asim</h1>
-					<P class="reponsiveTextSizeMaxFifteen">Software Developer</P>
+					<h1 class="reponsiveText_Size_CV_Name">Muhammad Rizwan Asim</h1>
+					<P class="reponsiveText_Size_MaxFifteen_MinSeventeenVM">Software Developer</P>
 					<div style="background: #e4e4e4; border-bottom-left-radius: 50px; border-top-left-radius: 50px">
 						<table>
 							<tr>
@@ -64,7 +64,7 @@
 								</td>
 								
 								<td>
-									<h2 style="font-weight: bold;"> OBJECTIVE</h2>
+									<span class="reponsiveText_Size_MaxThirtyFive_MinFiveVM" style="font-weight: bold;"> OBJECTIVE</span>
 								</td>
 							</tr>
 						</table>
@@ -78,17 +78,29 @@
 						<table>
 							<tr>
 								<td>
-									<i class="fas fa-university fa-2x" style="border-radius: 50%; padding: 10px; background: white;"></i>
+									<i class="fas fa-graduation-cap fa-2x" style="border-radius: 50%; padding: 10px; background: white;"></i>
 								</td>
 								
 								<td>
-									<h2 style="font-weight: bold;"> OBJECTIVE</h2>
+									<span class="reponsiveText_Size_MaxThirtyFive_MinFiveVM" style="font-weight: bold;"> ACADEMIC ACHIEVEMENTS </span>
 								</td>
 							</tr>
 						</table>
 					</div>
 					
-					<p class="reponsiveTextSizeMaxEighteen" style="text-align: justify; padding-left: 50px;">To be a part of an organization that provides an atmosphere of mutual growth and training, where I can show my talent and potential while applying my Computer Sciences, Information Technology qualifications and Interpersonal skills.</p>
+					<table width="100%" height="-10%">
+						<tr>
+							<td><span class="reponsiveText_Size_MaxEighteen_MinOneVW" style="text-align: justify; padding-left: 50px;">July 2018 - Dec 2018</span></td>
+							<td>
+								<span class="reponsiveText_Size_MaxEighteen_MinOneVW" style="text-align: justify; padding-left: 50px;">Diploma of Software Development</span>
+							</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td><span class="reponsiveText_Size_MaxEighteen_MinOneVW" style="text-align: justify; padding-left: 50px; font-weight: bold; color: #7E7E7E;">Canberra Institute Of Technology (CIT)</span></td>
+						</tr>
+					</table>
+					 
 					
 					
 					
