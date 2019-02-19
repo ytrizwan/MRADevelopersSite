@@ -52,7 +52,7 @@
 				</div>
 				
 				<div class="col-lg-8 marginTopByTwenty brushFront padding_left_fifty" style="min-height: 1000px;">
-					<h1 class="reponsiveText_Size_CV_Name">Muhammad Rizwan Asim</h1>
+					<h1 class="reponsiveText_Size_CV_Name">MR Asim</h1>
 					<P class="reponsiveText_Size_MaxFifteen_MinSeventeenVM">Software Developer</P>
 					<div class="label_Style_CV">
 						<table>
