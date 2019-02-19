@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>MRA Developers</title>
+	<title>Curriculum Vitae (CV)</title>
 	<!--Common Libraries for Each Page-->
 	<?php
 	include "templates/commonTopLibraries.php";
