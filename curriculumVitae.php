@@ -87,13 +87,13 @@
 					</div>
 					
 					<div class="row">
-						<div class="col-md-4 col-sm-12">
-							<span class="reponsiveText_Size_MaxEighteen_MinOneVW padding_left_fifty text_Align_Justify">July 2018 - Dec 2018</span>
+						<div class="col-md-4 col-sm-12 padding_left_fifty">
+							<span class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Justify">July 2018 - Dec 2018</span>
 						</div>
 						
 						<div class="col-md-8 col-sm-12" style="float: left;">
-							<span class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Left float_TO_Left padding_left_fifty">Diploma of Software Development</span><br>
-							<a href="https://cit.edu.au/" class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Left float_TO_Left padding_left_fifty weight_bold oolor_White_Gray text-decoration-none">Canberra Institute Of Technology (CIT)</a>
+							<span class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Left">Diploma of Software Development</span><br>
+							<a href="https://cit.edu.au/" class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Left weight_bold oolor_White_Gray text-decoration-none">Canberra Institute Of Technology (CIT)</a>
 						</div>
 					</div>
 					
@@ -105,15 +105,15 @@
 					
 					
 					<div class="row">
-						<div class="col-md-4 col-sm-12">
-							<span class="reponsiveText_Size_MaxEighteen_MinOneVW padding_left_fifty text_Align_Justify">Sep 2012 - Sep 2016</span>
+						<div class="col-md-4 col-sm-12 padding_left_fifty">
+							<span class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Justify">Sep 2012 - Sep 2016</span>
 						</div>
 						
 						<div class="col-md-8 col-sm-12" style="float: left;">
-							<span class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Left float_TO_Left padding_left_fifty">
+							<span class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Left">
 									Bachelor of Science in Computer Science (4 Year Program)
 								 </span><br>
-							<a href="http://www.vu.edu.pk/" class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Left float_TO_Left padding_left_fifty weight_bold oolor_White_Gray text-decoration-none">Virtual University of Pakistan (VU)</a>
+							<a href="http://www.vu.edu.pk/" class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Left weight_bold oolor_White_Gray text-decoration-none">Virtual University of Pakistan (VU)</a>
 						</div>
 					</div>
 					<div class="container"><hr></div>
@@ -123,13 +123,13 @@
 					
 					
 					<div class="row">
-						<div class="col-md-4 col-sm-12">
-							<span class="reponsiveText_Size_MaxEighteen_MinOneVW padding_left_fifty text_Align_Justify">2008 - 2010</span>
+						<div class="col-md-4 col-sm-12 padding_left_fifty">
+							<span class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Justify">2008 - 2010</span>
 						</div>
 						
 						<div class="col-md-8 col-sm-12" style="float: left;">
-							<span class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Left float_TO_Left padding_left_fifty">Intermediate</span><br>
-							<a href="http://www.gctownship.edu.pk" class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Left float_TO_Left padding_left_fifty weight_bold oolor_White_Gray text-decoration-none">Government College Township Lahore, Pakistan</a>
+							<span class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Left">Intermediate</span><br>
+							<a href="http://www.gctownship.edu.pk" class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Left weight_bold oolor_White_Gray text-decoration-none">Government College Township Lahore, Pakistan</a>
 						</div>
 					</div>
 					<div class="container"><hr></div>
