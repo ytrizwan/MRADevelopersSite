@@ -93,7 +93,7 @@
 						
 						<div class="col-md-8 col-sm-12" style="float: left;">
 							<span class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Left float_TO_Left padding_left_fifty">Diploma of Software Development</span><br>
-							<span class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Left float_TO_Left padding_left_fifty weight_bold oolor_White_Gray">Canberra Institute Of Technology (CIT)</span>
+							<a href="https://cit.edu.au/" class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Left float_TO_Left padding_left_fifty weight_bold oolor_White_Gray text-decoration-none">Canberra Institute Of Technology (CIT)</a>
 						</div>
 					</div>
 					
@@ -113,7 +113,7 @@
 							<span class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Left float_TO_Left padding_left_fifty">
 									Bachelor of Science in Computer Science (4 Year Program)
 								 </span><br>
-							<span class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Left float_TO_Left padding_left_fifty weight_bold oolor_White_Gray">Virtual University of Pakistan (VU)</span>
+							<a href="http://www.vu.edu.pk/" class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Left float_TO_Left padding_left_fifty weight_bold oolor_White_Gray text-decoration-none">Virtual University of Pakistan (VU)</a>
 						</div>
 					</div>
 					<div class="container"><hr></div>
@@ -129,7 +129,7 @@
 						
 						<div class="col-md-8 col-sm-12" style="float: left;">
 							<span class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Left float_TO_Left padding_left_fifty">Intermediate</span><br>
-							<span class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Left float_TO_Left padding_left_fifty weight_bold oolor_White_Gray">Government College Township Lahore, Pakistan</span>
+							<a href="http://www.gctownship.edu.pk" class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Left float_TO_Left padding_left_fifty weight_bold oolor_White_Gray text-decoration-none">Government College Township Lahore, Pakistan</a>
 						</div>
 					</div>
 					<div class="container"><hr></div>
@@ -172,7 +172,7 @@
 								</td>
 								
 								<td>
-									<span class="reponsiveText_Size_MaxThirtyEight_MinFourVM bold_Text"> ACHIEVEMENTS</span>
+									<span class="reponsiveText_Size_MaxThirtyEight_MinFourVM bold_Text"> EXPERIENCE</span>
 								</td>
 							</tr>
 						</table>
@@ -181,24 +181,62 @@
 					
 					
 					
+
+					
+					
+					<div class="row padding_left_fifty">
+						<div class="col-md-4 col-sm-12">
+							<p class="reponsiveText_Size_MaxEighteen_MinOneVW">July 2018 - Dec 2018</p>
+						</div>
+						
+						<div class="col-md-8 col-sm-12">
+							<p class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Left">Dynamic Website (citpressurecooker) Project for CIT</p>
+							<span class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Left weight_bold oolor_White_Gray">Canberra Institute of Technology</span><br>
+							<p class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Justify">I worked on a project, to build a website for CIT new cooking show. In this project, my team members and I developed whole website from scratch, we used Bootstrap, HTML and CSS for front-end development and used PHP to attach it with MYSQL Database. The project was teamwork.<br>
+							<span class="reponsiveText_Size_MaxEighteen_MinOneVW">Project Link: 
+								<a class="text-decoration-none" href="http://citpressurecooker.com/">citpressurecooker.com</a>
+							</span></p>
+							
+							<span class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Left bold_Text">Tasks Performed:</span>
+							<ul>
+								<li>Documentations</li>
+									<ul>
+										<li>Requirements Gathering</li>
+										<li>Wire frames</li>
+										<li>Risk Analysis</li>
+										<li>UML Diagram and Use Case Narratives</li>
+										<li>Minutes Meetings</li>
+										<li>Review Documentation</li>
+									</ul>
+								<li>Coding (Used Languages)</li>
+									<ul>
+										<li>CSS</li>
+										<li>HTML</li>
+										<li>Bootstrap 3</li>
+										<li>PHP</li>
+										<li>MySQL</li>
+									</ul>
+								<li>IDEs and Technologies Used</li>	
+									<ul>
+										<li>Adobe Dreamweaver CC 2018</li>
+										<li>Notepad++</li>
+										<li>GitHub Desktop for (Version Control System)</li>
+										<li>GitHub <a href="https://github.com/jmcgregor01/Pressure-Cooker" class="text-decoration-none">Link</a></li>
+										<li>Microsoft Word, Excel and Visio</li>
+										<li>Trello for Progress Report</li>
+									</ul>
+							</ul>
+						</div>
+					</div>
+					<div class="container"><hr></div>
 					
 					
 					
+
 					
 					
 					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
+
 					
 					
 					
