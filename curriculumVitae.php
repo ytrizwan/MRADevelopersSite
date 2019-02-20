@@ -86,8 +86,8 @@
 						</table>
 					</div>
 					
-					<div class="row">
-						<div class="col-md-4 col-sm-12 padding_left_fifty">
+					<div class="row padding_left_fifty">
+						<div class="col-md-4 col-sm-12">
 							<span class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Justify">July 2018 - Dec 2018</span>
 						</div>
 						
@@ -104,8 +104,8 @@
 					
 					
 					
-					<div class="row">
-						<div class="col-md-4 col-sm-12 padding_left_fifty">
+					<div class="row padding_left_fifty">
+						<div class="col-md-4 col-sm-12">
 							<span class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Justify">Sep 2012 - Sep 2016</span>
 						</div>
 						
@@ -122,8 +122,8 @@
 					
 					
 					
-					<div class="row">
-						<div class="col-md-4 col-sm-12 padding_left_fifty">
+					<div class="row padding_left_fifty">
+						<div class="col-md-4 col-sm-12">
 							<span class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Justify">2008 - 2010</span>
 						</div>
 						
@@ -131,8 +131,8 @@
 							<span class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Left">Intermediate</span><br>
 							<a href="http://www.gctownship.edu.pk" class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Left weight_bold oolor_White_Gray text-decoration-none">Government College Township Lahore, Pakistan</a>
 						</div>
-					</div>
-					<div class="container"><hr></div>
+					</div><br>
+
 					
 					
 					
@@ -143,10 +143,7 @@
 					
 					
 					
-					
-					
-					
-					
+
 					
 					
 					
@@ -237,6 +234,158 @@
 					
 					
 
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="row padding_left_fifty">
+						<div class="col-md-4 col-sm-12">
+							<p class="reponsiveText_Size_MaxEighteen_MinOneVW">Nov 2017 - Feb 2018</p>
+						</div>
+						
+						<div class="col-md-8 col-sm-12">
+							<p class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Left">Android Application (MRA Stock Calculator) Project</p>
+							<span class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Left weight_bold oolor_White_Gray">Self-Experience</span><br>
+							<p class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Justify">This Application is to find out the profit of stock purchase and sales price. User can put stock company code to check rates directly. Brokerage of purchase and sales can be added.<br>
+							<span class="reponsiveText_Size_MaxEighteen_MinOneVW">Project Link: 
+								<a class="text-decoration-none" href="https://play.google.com/store/apps/details?id=com.mra.mrastockcalculator">Play Store</a>
+							</span></p>
+							
+							<span class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Left bold_Text">Tasks Performed:</span>
+							<ul>
+								<li>Documentations</li>
+									<ul>
+										<li>UML Diagrams</li>
+										<li>Graphics Designing</li>
+									</ul>
+								<li>Coding (Used Languages)</li>
+									<ul>
+										<li>JAVA (Backend)</li>
+										<li>XML (Frontend)</li>
+										<li>Realm Database</li>
+									</ul>
+								<li>IDEs and Technologies</li>	
+									<ul>
+										<li>Android Studio</li>
+										<li>Adobe Photoshop</li>
+										<li>Adobe illustrator</li>
+										<li>Microsoft Visio</li>
+									</ul>
+								<li>Publishing on Play Store</li>
+										<li>Using google AdMob for Ads</li>
+										<li>Updating and Maintaining</li>								
+							</ul>
+						</div>
+					</div>
+					<div class="container"><hr></div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="row padding_left_fifty">
+						<div class="col-md-4 col-sm-12">
+							<p class="reponsiveText_Size_MaxEighteen_MinOneVW">Jan 2019 - Still Working</p>
+						</div>
+						
+						<div class="col-md-8 col-sm-12">
+							<p class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Left">Developing My Own Website (MRADevelopers)<br>In Progress: 25% completed</p>
+							<span class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Left weight_bold oolor_White_Gray">Self-Experience</span><br>
+							<p class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Justify">This Web poject is to share my personal projects and much more. I hope I will complete it as soon as possible.<br>
+							<span class="reponsiveText_Size_MaxEighteen_MinOneVW">Website 
+								<a class="text-decoration-none" href="http://mradevelopers.dx.am/">Link </a>
+							</span></p>
+							
+							<span class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Left bold_Text">Tasks Performed:</span>
+							<ul>
+								<li>Planning</li>
+								<li>Designing</li>
+								<li>Tools and Technologies</li>	
+									<ul>
+										<li>Frontend</li>
+											<ul>
+												<li>JavaScript</li>
+												<li>jQuery</li>
+												<li>CSS</li>
+												<li>Html</li>
+												<li>Bootstrap 4</li>
+											</ul>
+										<li>Backend</li>
+											<ul>
+												<li>PHP</li>
+												<li>MySQL</li>
+											</ul>
+										<li>Version Control System</li>
+											<ul>
+												<li>GitHub Desktop</li>
+												<li>GitHub <a class="text-decoration-none" href="https://github.com/ytrizwan/MRADevelopersSite">Link</a></li>
+											</ul>
+										<li>Adobe Dreamweaver CC 2018</li>
+										<li>Using free Hosting from <a class="text-decoration-none" href="https://www.awardspace.com/">AwardSpace</a></li>
+									</ul>							
+							</ul>
+						</div>
+					</div><br>
+
+					
+					
+					
+					
+					
+					
+					
+					<div class="label_Style_CV">
+						<table>
+							<tr>
+								<td>
+									<i class="fas fa-trophy fa-2x icon_Style_CV"></i>
+								</td>
+								
+								<td class="text-center">
+									<span class="reponsiveText_Size_MaxThirtyEight_MinFourVM bold_Text"> ADDITIONAL SKILLS AND EXPERIENCES</span>
+								</td>
+							</tr>
+						</table>
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
 					
 					
 					
