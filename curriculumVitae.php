@@ -29,7 +29,14 @@
 								<td width="90%"> Canberra </td>
 							</tr>
 						</table>
-							
+									
+						<table style="width: 100%">	
+							<tr>
+								<td width="10%" class="text-center"><i class="fas fa-envelope"></i></td>
+								<td width="90%"> ytrizwan@gmail.com </td>
+							</tr>
+						</table>
+						
 						<a class="whiteColorText text-decoration-none" href="tel:+61426046919">
 							<table style="width: 100%">
 								<tr>
@@ -37,14 +44,26 @@
 										<td width="90%"> +61 426 046 919 </td>
 								</tr>
 							</table>	
+						</a>						
+						
+						<a class="whiteColorText text-decoration-none" href="https://www.linkedin.com/in/muhammadrizwanasim">
+							<table style="width: 100%">
+								<tr>
+									<td width="10%" class="text-center"><i class="fab fa-linkedin-in"></i></td>
+									<td width="90%"> LinkedIn</td>
+								</tr>
+							</table>
 						</a>
-								
-						<table style="width: 100%">	
-							<tr>
-								<td width="10%" class="text-center"><i class="fas fa-envelope"></i></td>
-								<td width="90%"> ytrizwan@gmail.com </td>
-							</tr>
-						</table><br>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						<br>
 					</div>
 				</div>
 				
@@ -527,6 +546,7 @@
 					<div class="row padding_left_fifty">
 						<div class="col-12">
 							<ul>
+								<li>Swimming in Summer</li>
 								<li>Spend time with family</li>
 								<li>Watch TV</li>
 								<li>Watch Movies</li>
