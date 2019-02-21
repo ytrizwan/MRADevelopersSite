@@ -16,7 +16,7 @@
 		?>
 
 		<!--Main Middle Block, Where I put All Elements-->
-		<div class="container marginTopByFive showBoarderLeftRight">
+		<div class="container marginTopByFive">
 			<div class="row">
 				<div class="col-lg-4 text-center padding_left_fifty" style="background: #7543ad; color: white;">
 
@@ -68,7 +68,7 @@
 				</div>
 				
 				<div class="col-lg-8 marginTopByTwenty brushFront padding_left_fifty" style="min-height: 1000px;">
-					<h1 class="reponsiveText_Size_CV_Name">MR Asim</h1>
+					<h1 class="reponsiveText_Size_CV_Name">M Asim</h1>
 					<P class="reponsiveText_Size_MaxFifteen_MinSeventeenVM">Software Developer</P>
 					<div class="label_Style_CV">
 						<table>
