@@ -38,6 +38,11 @@ span.flip_text{
 	color: white;
 }
 
+/* Black Color Text */
+.blackColorText{
+	color: black;
+}
+
 /* White Color Background */
 .whiteColorBackground{
 	background: white;
@@ -501,10 +506,18 @@ span.flip_text{
 	 color: #7E7E7E;
 }
 
+.redTextColor{
+	color: #BC4143
+}
+
+.changeColorOnHover a:hover{
+	color:darkgrey;
+}
 /*
 table, th, td {
   border: 1px solid black;
 }
 */
+
 
 

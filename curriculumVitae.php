@@ -21,34 +21,31 @@
 				<div class="col-lg-4 text-center padding_left_fifty" style="background: #7543ad; color: white;">
 
 					<img class="imageStyleOfCV img-fluid" alt="rizwan" src="assets/images/static/rizwan.jpg">
-					<div class="text_Align_Left" style="margin-left: 10px;">
+					<div class="text_Align_Left changeColorOnHover" style="margin-left: 10px;">
 						<td><h3 class="responsiveTextSizeOfTwo">CONTACT</h3></td>
 						<table style="width: 100%">
 							<tr>
-								<td class="text-center"><i class="fas fa-map-marked-alt"></i></td>
-								<td> Canberra </td>
+								<td width="10%" class="text-center"><i class="fas fa-map-marked-alt"></i></td>
+								<td width="90%"> Canberra </td>
 							</tr>
+						</table>
 							
+						<a class="whiteColorText text-decoration-none" href="tel:+61426046919">
+							<table style="width: 100%">
+								<tr>
+										<td width="10%" class="text-center"><i class="fas fa-phone"></i></td>
+										<td width="90%"> +61 426 046 919 </td>
+								</tr>
+							</table>	
+						</a>
+								
+						<table style="width: 100%">	
 							<tr>
-								<td class="text-center"><i class="fas fa-phone"></i></td>
-								<td> +61 426 046 919 </td>
-							</tr>
-							
-							<tr>
-								<td class="text-center"><i class="fas fa-envelope"></i></td>
-								<td> ytrizwan@gmail.com </td>
+								<td width="10%" class="text-center"><i class="fas fa-envelope"></i></td>
+								<td width="90%"> ytrizwan@gmail.com </td>
 							</tr>
 						</table><br>
-						
-						
-						
-						
-						
-						
-						
 					</div>
-					
-					
 				</div>
 				
 				<div class="col-lg-8 marginTopByTwenty brushFront padding_left_fifty" style="min-height: 1000px;">
@@ -58,7 +55,7 @@
 						<table>
 							<tr>
 								<td>
-									<i class="fas fa-sign fa-2x icon_Style_CV"></i>
+									<i class="fas fa-sign fa-2x icon_Style_CV redTextColor"></i>
 								</td>
 								
 								<td>
@@ -76,7 +73,7 @@
 						<table>
 							<tr>
 								<td>
-									<i class="fas fa-graduation-cap fa-2x icon_Style_CV"></i>
+									<i class="fas fa-graduation-cap fa-2x icon_Style_CV redTextColor"></i>
 								</td>
 								
 								<td>
@@ -165,7 +162,7 @@
 						<table>
 							<tr>
 								<td>
-									<i class="fas fa-trophy fa-2x icon_Style_CV"></i>
+									<i class="fas fa-trophy fa-2x icon_Style_CV redTextColor"></i>
 								</td>
 								
 								<td>
@@ -363,7 +360,7 @@
 						<table>
 							<tr>
 								<td>
-									<i class="fas fa-trophy fa-2x icon_Style_CV"></i>
+									<i class="fas fa-tachometer-alt fa-2x icon_Style_CV redTextColor"></i>
 								</td>
 								
 								<td class="text-center">
@@ -374,6 +371,105 @@
 					</div>
 					
 					
+					<ul class="padding_left_fifty text-justify">
+						<li>Excellent skills in Customer Service (learned from Woolworth’s job as Part Time)</li>
+						<li>Clear Concepts of Object-Oriented Programming like Inheritance, Polymorphism, Overloading, Overriding, Interfaces, Abstract Class and Static functions and methods</li>
+						<li>Can complete projects in C#</li>
+						<li>Extensive knowledge of Microsoft Office Suite, Microsoft Windows Desktop and Linux Operating Systems</li>
+						<li>Skills in updating, assembling Computers and deep knowledge of Hardware internal, external peripherals and purpose of Ram, Hard Drive, SSD, PSU, VGA and CPU etc</li>
+						<li>Firm Knowledge and skills of Internet Browsers (Firefox, Chrome, Edge and Opera etc) and their useful addons like adblocker, security and utilities</li>
+						<li>Problem resolving skills of Hardware Compatibility issues</li>
+						<li>Excellent time management skills and copes well under pressure</li>
+						<li>Possesses a positive ‘can do’ attitude, always willing to go the extra mile to complete what is required and more</li>
+						<li>A proactive worker with the ability to work with minimal supervision</li>
+						<li>Open and engaging personality well suited to many environments</li>
+						<li>Flexible and adaptable to build and maintain strong working relationships</li>
+						<li>Always eager to learn new programming languages and challenges</li>
+						<li>Picks up new skills very quickly with minimal training required</li>
+					</ul>
+					
+					
+					
+					
+					<div class="label_Style_CV">
+						<table>
+							<tr>
+								<td>
+									<i class="fas fa-laptop-code fa-2x icon_Style_CV redTextColor"></i>
+								</td>
+								
+								<td class="text-center">
+									<span class="reponsiveText_Size_MaxThirtyEight_MinFourVM bold_Text"> PROGRAMMING LANGUAGES</span>
+								</td>
+							</tr>
+						</table>
+					</div>
+					
+					
+					
+					<div class="row padding_left_fifty">
+						<div class="col-12">
+
+							<di class="row">
+								<div class="col-lg-6 col-md-6">
+									<table width="100%">
+										<tr>
+											<td class="text-center" width="30%"><i class="fab fa-java fa-2x"></i></td>
+											<td width="70%" class="padding_left_fifty">JAVA</td>
+										</tr>
+									</table>
+								</div>
+								<div class="col-lg-6 col-md-6">
+									<table width="100%">
+										<tr>
+											<td class="text-center" width="30%"><i class="fab fa-php fa-2x"></i></td>
+											<td width="70%" class="padding_left_fifty">PHP</td>
+										</tr>
+									</table>
+								</div>
+							</di>
+
+
+							<di class="row">
+								<div class="col-lg-6 col-md-6">
+									<table width="100%">
+										<tr>
+											<td class="text-center" width="30%"><i class="fab fa-html5 fa-2x"></i></td>
+											<td width="70%" class="padding_left_fifty">HTML</td>
+										</tr>
+									</table>
+								</div>
+								<div class="col-lg-6 col-md-6">
+									<table width="100%">
+										<tr>
+											<td class="text-center" width="30%"><i class="fab fa-js fa-2x"></i></td>
+											<td width="70%" class="padding_left_fifty">JAVASCRIPT</td>
+										</tr>
+									</table>
+								</div>
+							</di>
+
+
+							<div class="row">
+								<div class="col-lg-6 col-md-6">
+									<table width="100%">
+										<tr>
+											<td class="text-center" width="30%"><i class="fab fa-css3-alt fa-2x"></i></td>
+											<td width="70%" class="padding_left_fifty">CSS</td>
+										</tr>
+									</table>
+								</div>
+								<div class="col-lg-6 col-md-6">
+									<table width="100%">
+										<tr>
+											<td class="text-center" width="30%"></td>
+											<td width="70%" class="padding_left_fifty"></td>
+										</tr>
+									</table>
+								</div>
+							</div>
+						</div>
+					</div><br>
 					
 					
 					
@@ -383,6 +479,202 @@
 					
 					
 					
+					
+					
+					<div class="label_Style_CV">
+						<table>
+							<tr>
+								<td>
+									<i class="fas fa-laptop-code fa-2x icon_Style_CV redTextColor"></i>
+								</td>
+								
+								<td class="text-center">
+									<span class="reponsiveText_Size_MaxThirtyEight_MinFourVM bold_Text"> LANGUAGES</span>
+								</td>
+							</tr>
+						</table>
+					</div>
+					
+					
+					<div class="row padding_left_fifty">
+						<div class="col-12">
+							<ul>
+								<li>English</li>
+								<li>Urdu</li>
+								<li>Punjabi</li>
+							</ul>
+						</div>
+					</div>
+					
+					
+					
+					
+					
+					<div class="label_Style_CV">
+						<table>
+							<tr>
+								<td>
+									<i class="fas fa-swimmer fa-2x icon_Style_CV redTextColor"></i>
+								</td>
+								
+								<td class="text-center">
+									<span class="reponsiveText_Size_MaxThirtyEight_MinFourVM bold_Text"> HOBBIES</span>
+								</td>
+							</tr>
+						</table>
+					</div>
+					
+					<div class="row padding_left_fifty">
+						<div class="col-12">
+							<ul>
+								<li>Spend time with family</li>
+								<li>Watch TV</li>
+								<li>Watch Movies</li>
+								<li>Play Video Games</li>
+								<li>Develop android application for fun</li>
+							</ul>
+						</div>
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="label_Style_CV">
+						<table>
+							<tr>
+								<td>
+									<i class="fas fa-user-friends fa-2x icon_Style_CV redTextColor"></i>
+								</td>
+								
+								<td>
+									<span class="reponsiveText_Size_MaxThirtyEight_MinFourVM bold_Text"> REFEREES </span>
+								</td>
+							</tr>
+						</table>
+					</div>
+					
+					<div class="row padding_left_fifty">
+						<div class="col-md-4 col-sm-12">
+							<span class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Justify">Andrew Jarrett</span>
+						</div>
+						
+						<div class="col-md-8 col-sm-12 changeColorOnHover" style="float: left;">
+							<span class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Left">TEAM MEMBER</span><br>
+							<a href="https://cit.edu.au/" class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Left weight_bold oolor_White_Gray text-decoration-none">FROM (CIT) PROJECT</a>
+							<p><a class="text-decoration-none" href="assets/ReferenceLetter.pdf">Reference Letter from Andrew</a></p>
+							<table width="100%">
+								<tr>
+									<td width="10%"><i class="fas fa-envelope fa-2x"></i></td>
+									<td width="90%"><a class="text-decoration-none" href="andrew.s.jarrett1@gmail.com">andrew.s.jarrett1@gmail.com</a></td>
+								</tr>
+							</table>
+							<a class="blackColorText whiteColorText text-decoration-none" href="tel:+61412869051">
+								<table width="100%">
+									<tr>
+										<td width="10%"><i class="fas fa-phone fa-2x"></i></td>
+										<td width="90%"> +61 412 869 051</td>
+									</tr>
+								</table>
+							</a>
+						</div>
+					</div>
+					
+					<div class="container"><hr></div>
+					
+					
+					<div class="row padding_left_fifty">
+						<div class="col-md-4 col-sm-12">
+							<span class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Justify">Dimitra Michalopoulos</span>
+						</div>
+						
+						<div class="col-md-8 col-sm-12 changeColorOnHover" style="float: left;">
+							<span class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Left">TEACHER</span><br>
+							<a href="https://cit.edu.au/" class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Left weight_bold oolor_White_Gray text-decoration-none">IT Department Canberra Institute of Technology (CIT)</a>
+							
+							<a class="blackColorText whiteColorText text-decoration-none" href="tel:+61262073188">
+								<table width="100%">
+									<tr>
+										<td width="10%"><i class="fas fa-phone fa-2x"></i></td>
+										<td width="90%">+61 2 6207 3188</td>
+									</tr>
+								</table>
+							</a>
+						</div>
+					</div>
+					
+					<div class="container"><hr></div>
+					
+					
+					
+					<div class="row padding_left_fifty">
+						<div class="col-md-4 col-sm-12">
+							<span class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Justify">Marianne Mann</span>
+						</div>
+						
+						<div class="col-md-8 col-sm-12" style="float: left;">
+							<span class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Left">TEACHER</span><br>
+							<a href="https://cit.edu.au/" class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Left weight_bold oolor_White_Gray text-decoration-none">IT Department Canberra Institute of Technology (CIT)</a>
+							
+							<table width="100%">
+								<tr>
+									<td width="10%"><i class="fas fa-envelope fa-2x"></i></td>
+									<td width="90%"><a class="text-decoration-none" href="mailto:marianne.mann@cit.edu.au">mailto:marianne.mann@cit.edu.au</a></td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					
+					<div class="container"><hr></div>
+					
+					
+					
+					
+					
+					<div class="row padding_left_fifty">
+						<div class="col-md-4 col-sm-12">
+							<span class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Justify">Md Hasan Furhad</span>
+						</div>
+						
+						<div class="col-md-8 col-sm-12" style="float: left;">
+							<span class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Left">TEACHER</span><br>
+							<a href="https://cit.edu.au/" class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Left weight_bold oolor_White_Gray text-decoration-none">IT Department Canberra Institute of Technology (CIT)</a>
+							
+							<table width="100%">
+								<tr>
+									<td width="10%"><i class="fas fa-envelope fa-2x"></i></td>
+									<td width="90%"><a class="text-decoration-none" href="Hasan.Furhad@cit.edu.au">Hasan.Furhad@cit.edu.au</a></td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					
+					<div class="container"><hr></div>
+					
+					
+					
+					
+					<div class="row padding_left_fifty">
+						<div class="col-md-4 col-sm-12">
+							<span class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Justify">Md Hasan Furhad</span>
+						</div>
+						
+						<div class="col-md-8 col-sm-12" style="float: left;">
+							<span class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Left">TEACHER</span><br>
+							<a href="https://cit.edu.au/" class="reponsiveText_Size_MaxEighteen_MinOneVW text_Align_Left weight_bold oolor_White_Gray text-decoration-none">IT Department Canberra Institute of Technology (CIT)</a>
+							
+							<table width="100%">
+								<tr>
+									<td width="10%"><i class="fab fa-linkedin fa-2x"></i></td>
+									<td width="90%"><a class="text-decoration-none" href="https://www.linkedin.com/in/awheeley">https://www.linkedin.com/in/awheeley</a></td>
+								</tr>
+							</table>
+						</div>
+					</div>
+										
 					
 					
 					
@@ -397,7 +689,7 @@
 					
 
 					
-					
+					<br>
 				</div>
 			</div>
 		</div>
