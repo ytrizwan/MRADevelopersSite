@@ -88,6 +88,11 @@ span.flip_text{
 	border-radius: 15px;
 }
 
+.showBoarderWhite{
+	border: 1px solid white;
+	border-radius: 15px;
+}
+
 .CommentsStyle{
 	margin: 4px;
 	border: 0.4px solid black;

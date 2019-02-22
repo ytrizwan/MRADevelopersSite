@@ -1,6 +1,6 @@
 // JavaScript Document
 
-		//Hide and Show Main Post Side
+		//Hide and Show Main side Post Side in templete named (sideBarTemplete)
 		$(window).resize(function() {
 			"use strict";
 			showOrHideMainPostOnScreenSizeChange();

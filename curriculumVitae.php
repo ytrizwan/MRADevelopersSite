@@ -67,6 +67,12 @@
 					
 					
 					
+					<a id="buttonClick" href="#">
+						<div class="showBoarderWhite" style="width: 95%;">
+							<i id="buttonIconChange" class="fas fa-angle-down whiteColorText"></i>
+						</div>
+						<div style="width: 05%;"></div>
+					</a>
 					
 					
 					
@@ -76,11 +82,7 @@
 					
 					
 					
-					
-					
-					
-					
-					<div class="text_Align_Left" style="margin-left: 10px;">
+					<div id="skillsBar" class="text_Align_Left" style="margin-left: 10px;">
 					<table style="width: 100%">
 							<tr>
 								<td class="bold_Text" width="80%">CORE COMPETENCIES</td>
@@ -171,12 +173,6 @@
 								<td width="10%"></td>
 							</tr>
 						</table>
-					
-					
-					
-					
-					
-					
 					</div><br>
 					
 					
@@ -868,22 +864,34 @@
 	
 	<script type="text/javascript">
 		//Hide and Show Comments Block
-		var switchShowHide = true;
-		$("#commentsBlock").hide();
-		$("#showHideLabel").text("Show");
 		
-		$("#commentsHeader").click(function(){
-			if(switchShowHide == true){
-				$("#commentsBlock").show("slow");
-				$("#showHideLabel").text("Hide");
-				switchShowHide = false;
-			}else{
-				$("#commentsBlock").hide("slow");
-				$("#showHideLabel").text("Show");
+//		$("#buttonClick").click(function(){
+//			$("#skillsBar").toggle("slow");
+//		});
+//		
+		
+		
+		
+		
+		
+		
+		
+		
+		var switchShowHide = true;
+		
+		$("#buttonClick").click(function(){
+			if(switchShowHide == false){
+				$("#skillsBar").show("slow");
+				$("#buttonIconChange").removeClass("fas fa-angle-up");
+				$("#buttonIconChange").addClass("fas fa-angle-down");	
 				switchShowHide = true;
+			}else{
+				$("#skillsBar").hide("slow");
+				$("#buttonIconChange").removeClass("fas fa-angle-down");
+				$("#buttonIconChange").addClass("fas fa-angle-up");	
+				switchShowHide = false;
 			}
 		});
 	</script>
-	<script type="text/javascript" src="assets/scripts.js"></script>
 </body>
 </html>
