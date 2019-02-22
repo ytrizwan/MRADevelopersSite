@@ -22,7 +22,12 @@
 
 					<img class="imageStyleOfCV img-fluid" alt="rizwan" src="assets/images/static/rizwan.jpg">
 					<div class="text_Align_Left changeColorOnHover" style="margin-left: 10px;">
-						<td><h3 class="responsiveTextSizeOfTwo">CONTACT</h3></td>
+						<table style="width: 100%">
+								<td class="bold_Text" width="80%">CONTACT</td>
+								<td width="20%" class="text-center"></td>
+								<td width="10%"></td>
+						</table>
+						
 						<table style="width: 100%">
 							<tr>
 								<td width="10%" class="text-center"><i class="fas fa-map-marked-alt"></i></td>
@@ -53,18 +58,156 @@
 									<td width="90%"> LinkedIn</td>
 								</tr>
 							</table>
-						</a>
+						</a><br>
 						
-						
-						
-						
-						
-						
-						
-						
-						
-						<br>
 					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="text_Align_Left" style="margin-left: 10px;">
+					<table style="width: 100%">
+							<tr>
+								<td class="bold_Text" width="80%">CORE COMPETENCIES</td>
+								<td width="20%" class="text-center"></td>
+								<td width="10%"></td>
+							</tr>
+						</table>
+						<table style="width: 100%">
+							<tr>
+								<td width="30%">Teamwork</td>
+								<td width="60%" class="text-center">
+									  <div class="progress">
+										<div class="progress-bar bg-warning" style="width:80%"></div>
+									  </div>
+								</td>
+								<td width="10%"></td>
+							</tr>
+							
+							<tr>
+								<td width="30%">Communication</td>
+								<td width="60%" class="text-center">
+									  <div class="progress">
+										<div class="progress-bar bg-warning" style="width:65%"></div>
+									  </div>
+								</td>
+								<td width="10%"></td>
+							</tr>
+							<tr>
+								<td width="30%">ProblemSolving</td>
+								<td width="60%" class="text-center">
+									  <div class="progress">
+										<div class="progress-bar bg-warning" style="width:75%"></div>
+									  </div>
+								</td>
+								<td width="10%"></td>
+							</tr>
+							<tr>
+								<td width="30%">Initiative</td>
+								<td width="60%" class="text-center">
+									  <div class="progress">
+										<div class="progress-bar bg-warning" style="width:68%"></div>
+									  </div>
+								</td>
+								<td width="10%"></td>
+							</tr>
+							<tr>
+								<td width="30%">Planning</td>
+								<td width="60%" class="text-center">
+									  <div class="progress">
+										<div class="progress-bar bg-warning" style="width:75%"></div>
+									  </div>
+								</td>
+								<td width="10%"></td>
+							</tr>
+							<tr>
+								<td width="30%">Management</td>
+								<td width="60%" class="text-center">
+									  <div class="progress">
+										<div class="progress-bar bg-warning" style="width:78%"></div>
+									  </div>
+								</td>
+								<td width="10%"></td>
+							</tr>
+							<tr>
+								<td width="30%">Learning</td>
+								<td width="60%" class="text-center">
+									  <div class="progress">
+										<div class="progress-bar bg-warning" style="width:90%"></div>
+									  </div>
+								</td>
+								<td width="10%"></td>
+							</tr>
+							<tr>
+								<td width="30%">Technology</td>
+								<td width="60%" class="text-center">
+									  <div class="progress">
+										<div class="progress-bar bg-warning" style="width:85%"></div>
+									  </div>
+								</td>
+								<td width="10%"></td>
+							</tr>
+						</table>
+					
+					
+					
+					
+					
+					
+					</div><br>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
 				</div>
 				
 				<div class="col-lg-8 marginTopByTwenty brushFront padding_left_fifty" style="min-height: 1000px;">
