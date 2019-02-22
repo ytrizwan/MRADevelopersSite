@@ -96,7 +96,7 @@
 								<td width="05%"></td>
 								<td width="55%" class="text-center">
 									  <div class="progress">
-										<div class="progress-bar bg-warning" style="width:80%"></div>
+										<div id="teamworkAnimation" class="progress-bar bg-warning" style="width:0%"></div>
 									  </div>
 								</td>
 								<td width="10%"></td>
@@ -107,7 +107,7 @@
 								<td width="05%"></td>
 								<td width="55%" class="text-center">
 									  <div class="progress">
-										<div class="progress-bar bg-warning" style="width:65%"></div>
+										<div id="communicationAnimation" class="progress-bar bg-warning" style="width:0%"></div>
 									  </div>
 								</td>
 								<td width="10%"></td>
@@ -117,7 +117,7 @@
 								<td width="05%"></td>
 								<td width="55%" class="text-center">
 									  <div class="progress">
-										<div class="progress-bar bg-warning" style="width:75%"></div>
+										<div id="problemSolvingAnimation" class="progress-bar bg-warning" style="width:0%"></div>
 									  </div>
 								</td>
 								<td width="10%"></td>
@@ -127,7 +127,7 @@
 								<td width="05%"></td>
 								<td width="55%" class="text-center">
 									  <div class="progress">
-										<div class="progress-bar bg-warning" style="width:68%"></div>
+										<div id="initiativeAnimation" class="progress-bar bg-warning" style="width:0%"></div>
 									  </div>
 								</td>
 								<td width="10%"></td>
@@ -137,7 +137,7 @@
 								<td width="05%"></td>
 								<td width="55%" class="text-center">
 									  <div class="progress">
-										<div class="progress-bar bg-warning" style="width:75%"></div>
+										<div id="planningAnimation" class="progress-bar bg-warning" style="width:0%"></div>
 									  </div>
 								</td>
 								<td width="10%"></td>
@@ -147,7 +147,7 @@
 								<td width="05%"></td>
 								<td width="55%" class="text-center">
 									  <div class="progress">
-										<div class="progress-bar bg-warning" style="width:78%"></div>
+										<div id="managementAnimation" class="progress-bar bg-warning" style="width:0%"></div>
 									  </div>
 								</td>
 								<td width="10%"></td>
@@ -157,7 +157,7 @@
 								<td width="05%"></td>
 								<td width="55%" class="text-center">
 									  <div class="progress">
-										<div class="progress-bar bg-warning" style="width:90%"></div>
+										<div id="learningAnimation" class="progress-bar bg-warning" style="width:0%"></div>
 									  </div>
 								</td>
 								<td width="10%"></td>
@@ -167,7 +167,7 @@
 								<td width="05%"></td>
 								<td width="55%" class="text-center">
 									  <div class="progress">
-										<div class="progress-bar bg-warning" style="width:85%"></div>
+										<div id="technologyAnimation" class="progress-bar bg-warning" style="width:0%"></div>
 									  </div>
 								</td>
 								<td width="10%"></td>
@@ -863,20 +863,48 @@
 	</div>
 	
 	<script type="text/javascript">
-		//Hide and Show Comments Block
-		
-//		$("#buttonClick").click(function(){
-//			$("#skillsBar").toggle("slow");
-//		});
-//		
 		
 		
+
+		
+		
+		//Animation of Skills bar
+		$("#teamworkAnimation").animate({
+			width: '80%'
+		}, "slow");
+		
+		$("#communicationAnimation").animate({
+			width: '65%'
+		}, "slow");
+		
+		$("#problemSolvingAnimation").animate({
+			width: '75%'
+		}, "slow");
+		
+		$("#initiativeAnimation").animate({
+			width: '68%'
+		}, "slow");
+		
+		$("#planningAnimation").animate({
+			width: '75%'
+		}, "slow");
+		
+		$("#managementAnimation").animate({
+			width: '78%'
+		}, "slow");
+		
+		$("#learningAnimation").animate({
+			width: '90%'
+		}, "slow");
+		
+		$("#technologyAnimation").animate({
+			width: '85%'
+		}, "slow");
 		
 		
 		
 		
-		
-		
+		//Hide and Show Skills Bar
 		var switchShowHide = true;
 		
 		$("#buttonClick").click(function(){
@@ -892,6 +920,20 @@
 				switchShowHide = false;
 			}
 		});
+		
+		
+		
+		
+		
+		
+		
+
+		
+		
+		
+		
+		
+		
 	</script>
 </body>
 </html>
