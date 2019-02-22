@@ -91,7 +91,8 @@
 						<table style="width: 100%">
 							<tr>
 								<td width="30%">Teamwork</td>
-								<td width="60%" class="text-center">
+								<td width="05%"></td>
+								<td width="55%" class="text-center">
 									  <div class="progress">
 										<div class="progress-bar bg-warning" style="width:80%"></div>
 									  </div>
@@ -101,7 +102,8 @@
 							
 							<tr>
 								<td width="30%">Communication</td>
-								<td width="60%" class="text-center">
+								<td width="05%"></td>
+								<td width="55%" class="text-center">
 									  <div class="progress">
 										<div class="progress-bar bg-warning" style="width:65%"></div>
 									  </div>
@@ -110,7 +112,8 @@
 							</tr>
 							<tr>
 								<td width="30%">ProblemSolving</td>
-								<td width="60%" class="text-center">
+								<td width="05%"></td>
+								<td width="55%" class="text-center">
 									  <div class="progress">
 										<div class="progress-bar bg-warning" style="width:75%"></div>
 									  </div>
@@ -119,7 +122,8 @@
 							</tr>
 							<tr>
 								<td width="30%">Initiative</td>
-								<td width="60%" class="text-center">
+								<td width="05%"></td>
+								<td width="55%" class="text-center">
 									  <div class="progress">
 										<div class="progress-bar bg-warning" style="width:68%"></div>
 									  </div>
@@ -128,7 +132,8 @@
 							</tr>
 							<tr>
 								<td width="30%">Planning</td>
-								<td width="60%" class="text-center">
+								<td width="05%"></td>
+								<td width="55%" class="text-center">
 									  <div class="progress">
 										<div class="progress-bar bg-warning" style="width:75%"></div>
 									  </div>
@@ -137,7 +142,8 @@
 							</tr>
 							<tr>
 								<td width="30%">Management</td>
-								<td width="60%" class="text-center">
+								<td width="05%"></td>
+								<td width="55%" class="text-center">
 									  <div class="progress">
 										<div class="progress-bar bg-warning" style="width:78%"></div>
 									  </div>
@@ -146,7 +152,8 @@
 							</tr>
 							<tr>
 								<td width="30%">Learning</td>
-								<td width="60%" class="text-center">
+								<td width="05%"></td>
+								<td width="55%" class="text-center">
 									  <div class="progress">
 										<div class="progress-bar bg-warning" style="width:90%"></div>
 									  </div>
@@ -155,7 +162,8 @@
 							</tr>
 							<tr>
 								<td width="30%">Technology</td>
-								<td width="60%" class="text-center">
+								<td width="05%"></td>
+								<td width="55%" class="text-center">
 									  <div class="progress">
 										<div class="progress-bar bg-warning" style="width:85%"></div>
 									  </div>
