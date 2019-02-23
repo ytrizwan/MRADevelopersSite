@@ -909,15 +909,82 @@
 		
 		$("#buttonClick").click(function(){
 			if(switchShowHide == false){
+				
 				$("#skillsBar").show("slow");
 				$("#buttonIconChange").removeClass("fas fa-angle-up");
 				$("#buttonIconChange").addClass("fas fa-angle-down");	
 				switchShowHide = true;
+				
+				$("#teamworkAnimation").animate({
+					width: '80%'
+				}, "slow");
+
+				$("#communicationAnimation").animate({
+					width: '65%'
+				}, "slow");
+
+				$("#problemSolvingAnimation").animate({
+					width: '75%'
+				}, "slow");
+
+				$("#initiativeAnimation").animate({
+					width: '68%'
+				}, "slow");
+
+				$("#planningAnimation").animate({
+					width: '75%'
+				}, "slow");
+
+				$("#managementAnimation").animate({
+					width: '78%'
+				}, "slow");
+
+				$("#learningAnimation").animate({
+					width: '90%'
+				}, "slow");
+
+				$("#technologyAnimation").animate({
+					width: '85%'
+				}, "slow");
+				
 			}else{
+				
 				$("#skillsBar").hide("slow");
 				$("#buttonIconChange").removeClass("fas fa-angle-down");
 				$("#buttonIconChange").addClass("fas fa-angle-up");	
 				switchShowHide = false;
+				
+					$("#teamworkAnimation").animate({
+						width: '0%'
+					}, "slow");
+
+					$("#communicationAnimation").animate({
+						width: '0%'
+					}, "slow");
+
+					$("#problemSolvingAnimation").animate({
+						width: '0%'
+					}, "slow");
+
+					$("#initiativeAnimation").animate({
+						width: '0%'
+					}, "slow");
+
+					$("#planningAnimation").animate({
+						width: '0%'
+					}, "slow");
+
+					$("#managementAnimation").animate({
+						width: '0%'
+					}, "slow");
+
+					$("#learningAnimation").animate({
+						width: '0%'
+					}, "slow");
+
+					$("#technologyAnimation").animate({
+						width: '0%'
+					}, "slow");
 			}
 		});
 		
@@ -936,15 +1003,88 @@
 		function showOrHideMainPostOnScreenSizeChange(){
 			"use strict";
 			if($(window).width() <= 977){
+				
+								
+
+				
 				$("#skillsBar").hide();
 				$("#buttonIconChange").removeClass("fas fa-angle-down");
 				$("#buttonIconChange").addClass("fas fa-angle-up");	
 				switchShowHide = false;
+				
+				
+					$("#teamworkAnimation").animate({
+						width: '0%'
+					}, "slow");
+
+					$("#communicationAnimation").animate({
+						width: '0%'
+					}, "slow");
+
+					$("#problemSolvingAnimation").animate({
+						width: '0%'
+					}, "slow");
+
+					$("#initiativeAnimation").animate({
+						width: '0%'
+					}, "slow");
+
+					$("#planningAnimation").animate({
+						width: '0%'
+					}, "slow");
+
+					$("#managementAnimation").animate({
+						width: '0%'
+					}, "slow");
+
+					$("#learningAnimation").animate({
+						width: '0%'
+					}, "slow");
+
+					$("#technologyAnimation").animate({
+						width: '0%'
+					}, "slow");
+				
 			}else{
+				
+
+				
 				$("#skillsBar").show();
 				$("#buttonIconChange").removeClass("fas fa-angle-up");
 				$("#buttonIconChange").addClass("fas fa-angle-down");	
 				switchShowHide = true;
+				
+				$("#teamworkAnimation").animate({
+					width: '80%'
+				}, "slow");
+
+				$("#communicationAnimation").animate({
+					width: '65%'
+				}, "slow");
+
+				$("#problemSolvingAnimation").animate({
+					width: '75%'
+				}, "slow");
+
+				$("#initiativeAnimation").animate({
+					width: '68%'
+				}, "slow");
+
+				$("#planningAnimation").animate({
+					width: '75%'
+				}, "slow");
+
+				$("#managementAnimation").animate({
+					width: '78%'
+				}, "slow");
+
+				$("#learningAnimation").animate({
+					width: '90%'
+				}, "slow");
+
+				$("#technologyAnimation").animate({
+					width: '85%'
+				}, "slow");
 			}
 		}
 
