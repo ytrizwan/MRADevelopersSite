@@ -926,7 +926,27 @@
 		
 		
 		
+		$(window).resize(function() {
+			"use strict";
+			showOrHideMainPostOnScreenSizeChange();
+		});
 		
+		showOrHideMainPostOnScreenSizeChange();
+		
+		function showOrHideMainPostOnScreenSizeChange(){
+			"use strict";
+			if($(window).width() <= 977){
+				$("#skillsBar").hide();
+				$("#buttonIconChange").removeClass("fas fa-angle-down");
+				$("#buttonIconChange").addClass("fas fa-angle-up");	
+				switchShowHide = false;
+			}else{
+				$("#skillsBar").show();
+				$("#buttonIconChange").removeClass("fas fa-angle-up");
+				$("#buttonIconChange").addClass("fas fa-angle-down");	
+				switchShowHide = true;
+			}
+		}
 
 		
 		
