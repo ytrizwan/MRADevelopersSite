@@ -38,6 +38,11 @@ span.flip_text{
 	color: white;
 }
 
+/* Black Color Text */
+.blackColorText{
+	color: black;
+}
+
 /* White Color Background */
 .whiteColorBackground{
 	background: white;
@@ -47,14 +52,14 @@ span.flip_text{
 .responsiveTextSize{
 	font-size: 5vw;
 }
+
+.responsiveTextSizeOfTwo{
+	font-size: 2vw;
+}
+
 .disableHover a:hover{
 	text-decoration:none;
 }
-/*
-.disableHover a #mraPart:hover{
-	color: rgb(255, 205, 59);
-}
-*/
 
 .disableHover a span:first-of-type:hover{
 	color: rgb(255, 205, 59);
@@ -71,12 +76,6 @@ span.flip_text{
     	padding-top: 3rem;
 	}
 }
-.jumbotronBoarderHead{
-	border-bottom: 1px solid;
-}
-.jumbotronBoarderFooter{
-	border-top: 1px solid;
-}
 
 /* div Main Container style */
 .mainContainer{
@@ -86,6 +85,11 @@ span.flip_text{
 
 .showBoarder{
 	border: 1px solid black;
+	border-radius: 15px;
+}
+
+.showBoarderWhite{
+	border: 1px solid white;
 	border-radius: 15px;
 }
 
@@ -99,6 +103,11 @@ span.flip_text{
 .showBoarderWithNoRadious{
 	border: 1px solid black;
 	border-radius: 0px;
+}
+
+.showBoarderLeftRight{
+	border-left: 1px solid black;
+	border-right: 1px solid black;
 }
 
 .boldText{
@@ -133,6 +142,11 @@ span.flip_text{
 .marginTopByFive{
 	margin-top: 5px;
 }
+
+.marginTopByTwenty{
+	margin-top: 20px;
+}
+
 .eachMainPostUpperBottom{
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -146,6 +160,14 @@ span.flip_text{
     margin-top: 15px;
 	margin-bottom: 15px;
 	border-radius: 10px;
+}
+
+.imageStyleOfCV{
+    margin-top: 15px;
+	margin-bottom: 15px;
+	border-radius: 50px;
+	max-height: 200px;
+	max-width: 200px;
 }
 
 .reponsiveTextSizeMaxTwentyTwo {
@@ -175,6 +197,239 @@ span.flip_text{
     font-size: 16px;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+.reponsiveText_Size_CV_Name  {
+  font-size: 55px;
+}
+@media screen and (max-width: 767px) {
+  .reponsiveText_Size_CV_Name {
+    font-size: 6vw;
+  }
+}
+@media screen and (min-width: 768px) {
+  .reponsiveText_Size_CV_Name {
+    font-size: calc(55px + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 990px) {
+  .reponsiveText_Size_CV_Name {
+    font-size: 55px;
+  }
+}
+
+
+
+
+
+
+
+
+.reponsiveText_Size_MaxFifteen_MinSeventeenVM  {
+  font-size: 15px;
+}
+@media screen and (min-width: 320px) {
+  .reponsiveText_Size_MaxFifteen_MinSeventeenVM {
+    font-size: calc(15px + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  .reponsiveText_Size_MaxFifteen_MinSeventeenVM {
+    font-size: 17px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+.reponsiveTextSizeMaxEighteen {
+  font-size: 18px;
+}
+@media screen and (min-width: 320px) {
+  .reponsiveTextSizeMaxEighteen {
+    font-size: calc(18px + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  .reponsiveTextSizeMaxEighteen {
+    font-size: 21px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.reponsiveText_Size_MaxThirtyEight_MinFourVM {
+  font-size: 28px;
+}
+@media screen and (max-width: 767px) {
+  .reponsiveText_Size_MaxThirtyEight_MinFourVM {
+    font-size: 4vw;
+	text-align: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .reponsiveText_Size_MaxThirtyEight_MinFourVM {
+    font-size: 4vw;
+  }
+}
+@media screen and (min-width: 990px) {
+  .reponsiveText_Size_MaxThirtyEight_MinFourVM {
+    font-size: 28px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.reponsiveText_Size_MaxEighteen_MinOneVW  {
+  font-size: 18px;
+}
+@media screen and (max-width: 400px) {
+  .reponsiveText_Size_MaxEighteen_MinOneVW {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 479px) {
+  .reponsiveText_Size_MaxEighteen_MinOneVW {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 999px) {
+  .reponsiveText_Size_MaxEighteen_MinOneVW {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .reponsiveText_Size_MaxEighteen_MinOneVW {
+    font-size: 18px;
+  }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 400px) {
+  .testThis {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/*
+@media screen and (max-width: 400px) {
+  .reponsiveText_Size_MaxEighteen_MinOneVW {
+    font-size: 0.5em;
+	  padding: 0px;
+  }
+}
+@media screen and (min-width: 479px) {
+  .reponsiveText_Size_MaxEighteen_MinOneVW {
+    font-size: 1em;
+  }
+}
+@media screen and (min-width: 769px) {
+  .reponsiveText_Size_MaxEighteen_MinOneVW {
+    font-size: 14px
+  }
+}
+@media screen and (min-width: 1201px) {
+  .reponsiveText_Size_MaxEighteen_MinOneVW {
+    font-size: 18px;
+  }
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .justifiedParagraph{
 	text-align: justify;
@@ -211,5 +466,63 @@ span.flip_text{
 .redColorText {
 	color: red;
 }
+
+.noBoarderRadius{
+	border-radius: 0px;
+}
+
+.brushFront{
+	font-family: "Fira Sans", serif;
+}
+
+.icon_Style_CV{
+	border-radius: 50%;
+	padding: 10px; 
+	background: white;
+}
+
+.label_Style_CV{
+	background: #e4e4e4; 
+	border-bottom-left-radius: 50px; 
+	border-top-left-radius: 50px;
+}
+
+.bold_Text{
+	font-weight: bold;
+}
+
+.padding_left_fifty{
+	padding-left: 50px;	
+}
+
+.text_Align_Justify{
+	text-align: justify;
+}
+
+.text_Align_Left{
+	text-align: left;
+}
+
+.weight_bold{
+	font-weight: bold;
+}
+
+.oolor_White_Gray{
+	 color: #7E7E7E;
+}
+
+.redTextColor{
+	color: #BC4143
+}
+
+.changeColorOnHover a:hover{
+	color:darkgrey;
+}
+/*
+table, th, td {
+  border: 1px solid black;
+}
+*/
+
 
 

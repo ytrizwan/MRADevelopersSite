@@ -16,7 +16,7 @@
 		?>
 
 		<!--Using Jumbotron at Top After The Header-->
-		<div class="jumbotron jumbotronWhiteColor disableHover jumbotronBoarderHead">
+		<div class="jumbotron jumbotronWhiteColor disableHover noBoarderRadius">
 			<h1 class="display-3 text-center responsiveTextSize">Welcome to <a href="index.php">
 				<?php
 					include "templates/mra4developersLogo.php";
