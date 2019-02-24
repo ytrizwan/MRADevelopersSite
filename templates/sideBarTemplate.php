@@ -7,24 +7,23 @@
 
 		<div class="row marginTopBottomByTenAndSides">
 			<div class="col-12 showBoarder whiteColorBackground boldText boarderShadow">
-				Programming
+				Programs
 			</div>
 			<ul class="marginTopByFive alignTextToLeft">
-				<li>Pakistan</li>
-				<li>India</li>
-				<li>Australia</li>
+				<li class="disableHover"><a href="#">Android</a></li>
+				<li class="disableHover"><a href="#">Java</a></li>
+				<li class="disableHover"><a href="#">PHP</a></li>
 			</ul>
 		</div>
 		<hr>
 
 		<div class="row marginTopBottomByTenAndSides">
 			<div class="col-12 showBoarder whiteColorBackground boldText boarderShadow">
-				Programming
+				Info
 			</div>
 			<ul class="marginTopByFive alignTextToLeft">
-				<li>Pakistan 100</li>
-				<li>India</li>
-				<li>Australia</li>
+				<li class="disableHover"><a href="#">About Us</a></li>
+				<li class="disableHover"><a href="curriculumVitae.php">Curriculum Vitae</a></li>
 			</ul>
 		</div>
 		<hr>
