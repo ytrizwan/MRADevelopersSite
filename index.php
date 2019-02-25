@@ -92,7 +92,7 @@ mysqli_set_charset($conn, "utf8mb4");
 								<span class="boldText">Date:</span> <?php echo $storeDate; ?>
 							</div>
 							<div class="col-6 alignRight">
-								<a href="openPostDetails.php">Open</a>
+								<a href="openPostDetails.php?id=<?php echo $storeID; ?>">Open</a>
 							</div>
 						</div>
 					</div>
