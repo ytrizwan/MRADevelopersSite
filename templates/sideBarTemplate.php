@@ -22,7 +22,7 @@
 				Info
 			</div>
 			<ul class="marginTopByFive alignTextToLeft">
-				<li class="disableHover"><a href="#">About Us</a></li>
+				<li class="disableHover"><a href="aboutUs.php">About Us</a></li>
 				<li class="disableHover"><a href="curriculumVitae.php">Curriculum Vitae</a></li>
 			</ul>
 		</div>
