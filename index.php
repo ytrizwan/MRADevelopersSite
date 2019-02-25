@@ -1,5 +1,5 @@
 <?php
-	require("admin/config/db.php");
+require("admin/config/db.php");
 ?>
 <!DOCTYPE html>
 <html>
@@ -49,7 +49,22 @@
 					</div>
 
 
-
+					<?php
+					$queryIndexPage = "SELECT *
+										FROM mra_post
+										ORDER BY id DESC";
+					$connectToQueryIndexPage = mysqli_query($conn, $queryIndexPage);
+					$countRows = mysqli_num_rows($connectToQueryIndexPage);
+					if($countRows > 0){
+						while($getEachRow = mysqli_fetch_array($connectToQueryIndexPage)){
+							$storeID = $getEachRow['id'];
+							$storeDate = $getEachRow['date'];
+							$storeTitle = $getEachRow['title'];
+							$storeDetails = $getEachRow['details'];
+							$storeImage = $getEachRow['img'];
+							$storeImageName = $getEachRow['imgName'];
+							$storeCategory = $getEachRow['cat'];
+					?>
 
 
 
@@ -57,27 +72,27 @@
 
 					<div class="showBoarder eachMainPostUpperBottom lightBlueBackground boarderShadow">
 						<div class="row marginAllSidesByTen">
-							<div class="col-12 reponsiveTextSizeMaxTwentyTwo boldText"> This is Post Header</div>
+							<div class="col-12 reponsiveTextSizeMaxTwentyTwo boldText"> <?php echo $storeTitle; ?></div>
 						</div>
 
 						<div class="row marginAllSidesByTen">
 							<div class="col-lg-4 ">
 								<div class="radiusOfBoarder">
 									<div style="background: black; border-radius: 10px;">
-										<img class="imageStyleOfPosts img-fluid" src="assets/images/dynamic/postMainImage/post01.jpg" alt="PostImage">
+										<img class="imageStyleOfPosts img-fluid" src="assets/images/dynamic/postMainImage/<?php echo $storeImage; ?>" alt="PostImage">
 									</div>
-									<h4 class="boldText reponsiveTextSizeMaxSixteen eachMainPostUpperBottom">This is Part Of Images</h4>
+									<h4 class="boldText reponsiveTextSizeMaxSixteen eachMainPostUpperBottom"><?php echo $storeImageName; ?></h4>
 								</div>
 							</div>
 							<div class="col-lg-1"></div>
 							<div class="col-lg-7 whiteColorBackground reponsiveTextSizeMaxSixteen justifiedParagraph radiusOfBoarder">
-								<p>Since before Christmas, royal fans have questioned whether the two duchesses have been getting along, with rumours emerging that the sisters-in-law are “feuding”, The Sun reports. Now, royal experts have weighed in to claim Meghan — who has only been a member of the royal family for eight months — “never stood a chance” in the popularity stakes against Kate. Writing in the Guardian, Yomi Adegoke said: “Meghan’s casting as a Disney villain — a black female divorcee with a penchant for black dresses (another protocol breach) — practically writes itself.</p>
+								<p><?php echo nl2br($storeDetails); ?></p>
 							</div>
 						</div>
 
 						<div class="row marginAllSidesByTwenty">
 							<div class="col-6 alignLeft">
-								<span class="boldText">Date:</span> 22/01/2019
+								<span class="boldText">Date:</span> <?php echo $storeDate; ?>
 							</div>
 							<div class="col-6 alignRight">
 								<a href="openPostDetails.php">Open</a>
@@ -87,7 +102,11 @@
 					<hr>
 
 
-
+					<?php
+						}
+					}
+					?>
+					
 
 
 
