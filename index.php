@@ -1,3 +1,6 @@
+<?php
+	require("admin/config/db.php");
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -30,8 +33,8 @@
 
 
 
-
-
+ 
+ 
 
 
 
