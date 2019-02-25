@@ -1,5 +1,7 @@
 <?php
 require("admin/config/db.php");
+//characters from Database is fixed
+mysqli_set_charset($conn, "utf8mb4");
 ?>
 <!DOCTYPE html>
 <html>
@@ -65,11 +67,6 @@ require("admin/config/db.php");
 							$storeImageName = $getEachRow['imgName'];
 							$storeCategory = $getEachRow['cat'];
 					?>
-
-
-
-
-
 					<div class="showBoarder eachMainPostUpperBottom lightBlueBackground boarderShadow">
 						<div class="row marginAllSidesByTen">
 							<div class="col-12 reponsiveTextSizeMaxTwentyTwo boldText"> <?php echo $storeTitle; ?></div>
@@ -100,8 +97,6 @@ require("admin/config/db.php");
 						</div>
 					</div>
 					<hr>
-
-
 					<?php
 						}
 					}
