@@ -3,7 +3,7 @@ require("admin/config/db.php");
 //characters from Database is fixed
 mysqli_set_charset($conn, "utf8mb4");
 
-
+//PHP Code for Page Numbers (2/4)
 if (isset($_GET["page"]))
 { 
 	$page  = $_GET["page"];
@@ -67,6 +67,7 @@ $start_from = ($page-1) * $results_per_page;
 
 
 					<?php
+					//PHP query for Dynamic Post
 					$queryIndexPage = "SELECT *
 										FROM mra_post
 										ORDER BY id DESC
@@ -156,7 +157,7 @@ $start_from = ($page-1) * $results_per_page;
 					
 					
 					
-					<?php // if($page == 1){ echo "\" disabled\"";} ?>
+					
 					
 					
 					
@@ -164,6 +165,7 @@ $start_from = ($page-1) * $results_per_page;
 					
 					
 					<?php
+					//PHP Code for Page Numbers (3/4)
 					$sql = "SELECT COUNT(ID) AS total FROM ".$datatable; 
 					$result = $conn->query($sql);
 					$row = $result->fetch_assoc();
@@ -173,23 +175,24 @@ $start_from = ($page-1) * $results_per_page;
 					<div>
 						<nav aria-label="Page navigation example text-center">
 							<ul class="pagination justify-content-center">
-								<li class="page-item">
-									<a class="page-link disabled" href="index.php?page=<?php echo $page-1; ?>" aria-label="Previous">
+								<li class="page-item <?php if($page == 1){ echo " disabled ";} ?>">
+									<a class="page-link" href="index.php?page=<?php echo $page-1; ?>" aria-label="Previous">
 								 		<span aria-hidden="true">&laquo;</span>
 								 		<span class="sr-only">Previous</span>
 								 	</a>
 								</li>
 									
 								<?php 
+								//PHP Code for Page Numbers (4/4)
 								for ($i=1; $i<=$total_pages; $i++) { 
 								?>
 								
-								<li class="page-item"><?php echo "<a class=\"page-link\" href='index.php?page=".$i."'>".$i."</a> ";?>
+								<li class="page-item <?php if($page == $i){ echo " active ";} ?>"><?php echo "<a class=\"page-link\" href='index.php?page=".$i."'>".$i."</a> ";?>
 								</li>
 								<?php
 								}; 
 								?>	
-								<li class="page-item">		
+								<li class="page-item <?php if($page == $total_pages){ echo " disabled ";} ?>">		
 									<a class="page-link" href="index.php?page=<?php echo $page+1; ?>" aria-label="Next">
 								 		<span aria-hidden="true">&raquo;</span>
 								 		<span class="sr-only">Next</span>
@@ -212,39 +215,7 @@ $start_from = ($page-1) * $results_per_page;
 					
 					
 					
-<!--
-					<div>
-						<nav aria-label="Page navigation example text-center">
-							<ul class="pagination justify-content-center">
-								<li class="page-item">
-								<a class="page-link" href="#" aria-label="Previous">
-								 <span aria-hidden="true">&laquo;</span>
-								 <span class="sr-only">Previous</span>
-								 </a>
-								
 
-								</li>
-								<li class="page-item"><a class="page-link" href="#">1</a>
-								</li>
-								<li class="page-item"><a class="page-link" href="#">2</a>
-								</li>
-								<li class="page-item"><a class="page-link" href="#">3</a>
-								</li>
-								<li class="page-item">
-									
-									
-									
-								<a class="page-link" href="#" aria-label="Next">
-								 <span aria-hidden="true">&raquo;</span>
-								 <span class="sr-only">Next</span>
-								 </a>
-								
-
-								</li>
-							</ul>
-						</nav>
-					</div>
--->
 					
 					
 					
