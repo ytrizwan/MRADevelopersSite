@@ -1,6 +1,7 @@
 <?php
 //PHP Code for Page Numbers (1/4)
-$results_per_page = 05; 
+$start_page_number = 1;
+$results_per_page = 05;
 $datatable = "mra_post";
 
 //Database Conneciton
