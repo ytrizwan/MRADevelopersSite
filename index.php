@@ -196,15 +196,10 @@ $start_from = ($page-1) * $results_per_page;
 								
 								<?php 
 								//PHP Code for Page Numbers (4/4)
+								//Decsion on less than 8 when "total_page" is less than 8
 								if($total_pages <= 8 && $page <= 8){
 									for($i=$start_page_number; $i<=$total_pages; $i++) {
 								?>	
-								
-								
-								
-								
-								
-								
 								<li 
 									class="page-item <?php if($page == $i){ echo " active ";} ?>">
 									<?php 
@@ -213,23 +208,12 @@ $start_from = ($page-1) * $results_per_page;
 									echo "</a> ";
 									?>
 								</li>		
-								
-								
-								
-								
-								
-								
-								
 								<?php	
 									}
+								//Decsion less than 8 when "total_page" is greater than 8
 								}elseif($total_pages > 8 && $page < 8){
 									for($i=$start_page_number; $i<=8; $i++) {
 								?>	
-								
-								
-								
-								
-							
 								<li 
 									class="page-item <?php if($page == $i){ echo " active ";} ?>">
 									<?php 
@@ -243,19 +227,12 @@ $start_from = ($page-1) * $results_per_page;
 									echo "</a> ";
 									?>
 								</li>
-								
-								
-								
-								
-								<?php		
+								<?php
 									}
-								}elseif($total_pages >= 8 && $page >= 8){
-									for($i=$page-4; $i<=$page+4; $i++){
+								//Decsion when "page" is greater than limit of last Number
+								}elseif($page > $total_pages-4){
+									for($i=$page-4; $i<=$total_pages; $i++){
 								?>
-								
-								
-								
-								
 								<li 
 									class="page-item <?php if($page == $i){ echo " active ";} ?>">
 									<?php 
@@ -264,11 +241,20 @@ $start_from = ($page-1) * $results_per_page;
 									echo "</a> ";
 									?>
 								</li>
-							
-								
-								
-								
-								
+								<?php		
+									}
+								//Decsion when "total_pages" and "page" both are greater than 8
+								}elseif($total_pages >= 8 && $page >= 8){
+									for($i=$page-4; $i<=$page+4; $i++){
+								?>
+								<li 
+									class="page-item <?php if($page == $i){ echo " active ";} ?>">
+									<?php 
+									echo "<a class=\"page-link\" href='index.php?page=".$i."'>";
+									echo $i;
+									echo "</a> ";
+									?>
+								</li>
 								<?php
 									}
 								};
@@ -286,105 +272,7 @@ $start_from = ($page-1) * $results_per_page;
 								
 								
 								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-<?php /*?>								
-								
-								elseif($page > 8){
-									for ($i=$page-4; $i<=$page+4; $i++) {
-								?>	
 
-								
-								
-								
-								
-								
-								
-								
-								
-								<li 
-									class="page-item <?php if($page == $i){ echo " active ";} ?>">
-									<?php 
-									echo "<a class=\"page-link\" href='index.php?page=".$i."'>";
-									echo $i;
-									echo "</a> ";
-									?>
-								</li><?php */?>	
-								
-								
-								
-								
-								
-								
-								
-								
-								
-<?php /*?>								<?php		
-									}
-								};//elseif($page >= $total_pages-6){
-									//for ($i=$page-4; $i<=$total_pages; $i++) {
-								?>	<?php */?>
-								
-								
-								
-								
-								
-								
-								
-								
-								
-<?php /*?>								<li 
-									class="page-item <?php if($page == $i){ echo " active ";} ?>">
-									<?php 
-									echo "<a class=\"page-link\" href='index.php?page=".$i."'>";
-									echo $i;
-									echo "</a> ";
-									?>
-								</li>
-								
-								
-								
-								
-								
-								
-								
-								<?php
-									}
-								};
-								?>	<?php */?>
-								
-								
-								
-								
-								
-								
-								
-								
-
-								
-
-								
-								
-								
-								
-								
-								
-								
-								
 
 								<li class="page-item <?php if($page == $total_pages){ echo " disabled ";} ?>">		
 									<a class="page-link" href="index.php?page=<?php echo $page+1; ?>" aria-label="Next">
@@ -401,213 +289,7 @@ $start_from = ($page-1) * $results_per_page;
 
 
 					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-
-
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-<?php /*?>					
-					<?php
-					//PHP Code for Page Numbers (3/4)
-					$sql = "SELECT COUNT(ID) AS total FROM ".$datatable; 
-					$result = $conn->query($sql);
-					$row = $result->fetch_assoc();
-					$total_pages = ceil($row["total"] / $results_per_page);
-					
-					?>
-
-					<div>
-						<nav aria-label="Page navigation example text-center">
-							<ul class="pagination justify-content-center">
-								<li class="page-item <?php if($page == 1){ echo " disabled ";} ?>">
-									<a class="page-link" href="index.php?page=<?php echo $page-1; ?>" aria-label="Previous">
-								 		<span aria-hidden="true">&laquo;</span>
-								 		<span class="sr-only">Previous</span>
-								 	</a>
-								</li>
-									
-								<?php 
-								//PHP Code for Page Numbers (4/4)
-								for ($i=1; $i<=$total_pages; $i++) { 
-									
-									
-									
-									
-
-									
-									
-									
-								?>
-								<li 
-									class="page-item <?php if($page == $i){ echo " active ";} ?>">
-									<?php 
-									echo "<a class=\"page-link\" href='index.php?page=".$i."'>";
-									echo $i;
-									echo "</a> ";
-									?>
-								</li>
-								<?php
-									
-									
-									
-									
-									
-									
-									
-									
-									
-								}; 
-								?>	
-								<li class="page-item <?php if($page == $total_pages){ echo " disabled ";} ?>">		
-									<a class="page-link" href="index.php?page=<?php echo $page+1; ?>" aria-label="Next">
-								 		<span aria-hidden="true">&raquo;</span>
-								 		<span class="sr-only">Next</span>
-								 	</a>
-								</li>
-							</ul>
-						</nav>
-					</div>
-					
-					
-					<?php */?>
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-<!--
-					$page_quantity_to_nine = 0;
-					if($total_pages <= 9){
-						$page_quantity_to_nine = $total_pages;
-					}else{
-						$page_quantity_to_nine = 9;
-					}
-
-
-
-
-
-
-									if($i <= 8){
-										echo $i;
-									}else{
-										if($i == 9){
-											echo "...";
-										}
-									}
--->
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-<!--					echo "<a class=\"page-link\" href='index.php?page=".$i."'>" if($i <= 8){ echo ".$i.";}else{ if($i == 9){ echo ".--.";}} "</a> ";-->
-					
-					
-					
-					
-					
-<!--					echo "<a class=\"page-link\" href='index.php?page=".$i."'>".$i."</a> ";-->
-					
-
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
+	
 					
 
 
