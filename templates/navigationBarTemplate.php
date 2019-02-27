@@ -18,16 +18,16 @@
 			</li>
 			
 			<li class="nav-item">
-				<a class="nav-link" href="#">Techniques</a>
+				<a class="nav-link" href="techPosts.php">Techniques</a>
 			</li>
 			
 			<li class="nav-item dropdown">
 				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPrograms" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Programs</a>
 
 				<div class="dropdown-menu" aria-labelledby="navbarDropdownPrograms">
-					<a class="dropdown-item" href="#">Android</a>
-					<a class="dropdown-item" href="#">Java</a>
-					<a class="dropdown-item" href="#">PHP</a>
+					<a class="dropdown-item" href="androidPosts.php">Android</a>
+					<a class="dropdown-item" href="javaPosts.php">Java</a>
+					<a class="dropdown-item" href="phpPosts.php">PHP</a>
 				</div>
 			</li>
 			

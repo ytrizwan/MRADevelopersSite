@@ -10,9 +10,9 @@
 				Programs
 			</div>
 			<ul class="marginTopByFive alignTextToLeft">
-				<li class="disableHover"><a href="#">Android</a></li>
-				<li class="disableHover"><a href="#">Java</a></li>
-				<li class="disableHover"><a href="#">PHP</a></li>
+				<li class="disableHover"><a href="androidPosts.php">Android</a></li>
+				<li class="disableHover"><a href="javaPosts.php">Java</a></li>
+				<li class="disableHover"><a href="phpPosts.php">PHP</a></li>
 			</ul>
 		</div>
 		<hr>
