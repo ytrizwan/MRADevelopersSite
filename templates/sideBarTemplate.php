@@ -1,6 +1,6 @@
 <div id="mainPost" class="col-lg-4 col-12">
 	<div class="col-12 showBoarderWithNoRadious marginTopBottomByTen boldText whiteTextWithBlackBackground boarderShadow">
-		Main Posts
+		Quick Bar
 	</div>
 
 	<div class="col-12 showBoarder lightBlueBackground marginTopBottomByTen boarderShadow">
