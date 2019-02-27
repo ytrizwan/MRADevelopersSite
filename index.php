@@ -176,6 +176,15 @@ $start_from = ($page-1) * $results_per_page;
 					<div>
 						<nav aria-label="Page navigation example text-center">
 							<ul class="pagination justify-content-center">
+								
+								<li class="page-item <?php if($page == 1){ echo " disabled ";} ?>">
+									<a class="page-link" href="index.php?page=<?php echo "1"; ?>" aria-label="First">
+								 		<span aria-hidden="true">First</span>
+								 		<span class="sr-only">First</span>
+								 	</a>
+								</li>
+								
+								
 								<li class="page-item <?php if($page == 1){ echo " disabled ";} ?>">
 									<a class="page-link" href="index.php?page=<?php echo $page-1; ?>" aria-label="Previous">
 								 		<span aria-hidden="true">&laquo;</span>
@@ -278,6 +287,13 @@ $start_from = ($page-1) * $results_per_page;
 									<a class="page-link" href="index.php?page=<?php echo $page+1; ?>" aria-label="Next">
 								 		<span aria-hidden="true">&raquo;</span>
 								 		<span class="sr-only">Next</span>
+								 	</a>
+								</li>
+								
+								<li class="page-item <?php if($page == $total_pages){ echo " disabled ";} ?>">		
+									<a class="page-link" href="index.php?page=<?php echo $total_pages; ?>" aria-label="Last">
+								 		<span aria-hidden="true">Last</span>
+								 		<span class="sr-only">Last</span>
 								 	</a>
 								</li>
 							</ul>
