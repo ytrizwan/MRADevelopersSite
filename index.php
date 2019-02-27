@@ -206,7 +206,7 @@ $start_from = ($page-1) * $results_per_page;
 								<?php 
 								//PHP Code for Page Numbers (4/4)
 								//Decsion on less than 8 when "total_page" is less than 8
-								if($total_pages <= 8 && $page <= 8){
+								if($total_pages <= 6 && $page <= 6){
 									for($i=$start_page_number; $i<=$total_pages; $i++) {
 								?>	
 								<li 
@@ -220,17 +220,17 @@ $start_from = ($page-1) * $results_per_page;
 								<?php	
 									}
 								//Decsion less than 8 when "total_page" is greater than 8
-								}elseif($total_pages > 8 && $page < 8){
-									for($i=$start_page_number; $i<=8; $i++) {
+								}elseif($total_pages > 6 && $page < 6){
+									for($i=$start_page_number; $i<=6; $i++) {
 								?>	
 								<li 
 									class="page-item <?php if($page == $i){ echo " active ";} ?>">
 									<?php 
 									echo "<a class=\"page-link\" href='index.php?page=".$i."'>";
-										if($i < 8){
+										if($i < 6){
 											echo $i;
-										}elseif($i == 8){
-											echo "8 ...";
+										}elseif($i == 6){
+											echo "6 ...";
 										}
 									
 									echo "</a> ";
@@ -239,8 +239,8 @@ $start_from = ($page-1) * $results_per_page;
 								<?php
 									}
 								//Decsion when "page" is greater than limit of last Number
-								}elseif($page > $total_pages-4){
-									for($i=$page-4; $i<=$total_pages; $i++){
+								}elseif($page > $total_pages-2){
+									for($i=$page-2; $i<=$total_pages; $i++){
 								?>
 								<li 
 									class="page-item <?php if($page == $i){ echo " active ";} ?>">
@@ -253,8 +253,8 @@ $start_from = ($page-1) * $results_per_page;
 								<?php		
 									}
 								//Decsion when "total_pages" and "page" both are greater than 8
-								}elseif($total_pages >= 8 && $page >= 8){
-									for($i=$page-4; $i<=$page+4; $i++){
+								}elseif($total_pages >= 6 && $page >= 6){
+									for($i=$page-2; $i<=$page+2; $i++){
 								?>
 								<li 
 									class="page-item <?php if($page == $i){ echo " active ";} ?>">
