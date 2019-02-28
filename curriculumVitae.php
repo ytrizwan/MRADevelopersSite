@@ -31,7 +31,7 @@
 						<table style="width: 100%">
 							<tr>
 								<td width="10%" class="text-center"><i class="fas fa-map-marked-alt"></i></td>
-								<td width="90%"> Canberra </td>
+								<td width="90%"> Sydney </td>
 							</tr>
 						</table>
 									
