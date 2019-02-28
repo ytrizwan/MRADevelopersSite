@@ -301,7 +301,7 @@ $start_from = ($page-1) * $results_per_page;
 						}
 						
 					}elseif((empty($_GET['searchInput']))){
-						die("You must enter a search query");
+						echo "<div style ='padding-bottom:40%'><p>You must enter a search query</p></div>";
 					}
 					?>
 
