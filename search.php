@@ -197,7 +197,7 @@ $start_from = ($page-1) * $results_per_page;
 							<ul class="pagination justify-content-center">
 								
 								<li class="page-item <?php if($page == 1){ echo " disabled ";} ?>">
-									<a class="page-link" href="searchNumberPages.php?page=<?php echo "1"; ?>&searchInput=<?php echo $search ?>" aria-label="First">
+									<a class="page-link" href="search.php?page=<?php echo "1"; ?>&searchInput=<?php echo $search ?>" aria-label="First">
 								 		<span aria-hidden="true">First</span>
 								 		<span class="sr-only">First</span>
 								 	</a>
@@ -205,7 +205,7 @@ $start_from = ($page-1) * $results_per_page;
 								
 								
 								<li class="page-item <?php if($page == 1){ echo " disabled ";} ?>">
-									<a class="page-link" href="searchNumberPages.php?page=<?php echo $page-1; ?>&searchInput=<?php echo $search ?>" aria-label="Previous">
+									<a class="page-link" href="search.php?page=<?php echo $page-1; ?>&searchInput=<?php echo $search ?>" aria-label="Previous">
 								 		<span aria-hidden="true">&laquo;</span>
 								 		<span class="sr-only">Previous</span>
 								 	</a>
@@ -220,7 +220,7 @@ $start_from = ($page-1) * $results_per_page;
 								<li 
 									class="page-item <?php if($page == $i){ echo " active ";} ?>">
 									<?php 
-									echo "<a class=\"page-link\" href='searchNumberPages.php?page=".$i."&searchInput=".$search."'>";
+									echo "<a class=\"page-link\" href='search.php?page=".$i."&searchInput=".$search."'>";
 									echo $i;
 									echo "</a> ";
 									?>
@@ -234,7 +234,7 @@ $start_from = ($page-1) * $results_per_page;
 								<li 
 									class="page-item <?php if($page == $i){ echo " active ";} ?>">
 									<?php 
-									echo "<a class=\"page-link\" href='searchNumberPages.php?page=".$i."&searchInput=".$search."'>";
+									echo "<a class=\"page-link\" href='search.php?page=".$i."&searchInput=".$search."'>";
 										if($i < 6){
 											echo $i;
 										}elseif($i == 6){
@@ -253,7 +253,7 @@ $start_from = ($page-1) * $results_per_page;
 								<li 
 									class="page-item <?php if($page == $i){ echo " active ";} ?>">
 									<?php 
-									echo "<a class=\"page-link\" href='searchNumberPages.php?page=".$i."&searchInput=".$search."'>";
+									echo "<a class=\"page-link\" href='search.php?page=".$i."&searchInput=".$search."'>";
 									echo $i;
 									echo "</a> ";
 									?>
@@ -267,7 +267,7 @@ $start_from = ($page-1) * $results_per_page;
 								<li 
 									class="page-item <?php if($page == $i){ echo " active ";} ?>">
 									<?php 
-									echo "<a class=\"page-link\" href='searchNumberPages.php?page=".$i."&searchInput=".$search."'>";
+									echo "<a class=\"page-link\" href='search.php?page=".$i."&searchInput=".$search."'>";
 									echo $i;
 									echo "</a> ";
 									?>
@@ -278,14 +278,14 @@ $start_from = ($page-1) * $results_per_page;
 								?>
 
 								<li class="page-item <?php if($page == $total_pages){ echo " disabled ";} ?>">		
-									<a class="page-link" href="searchNumberPages.php?page=<?php echo $page+1; ?>&searchInput=<?php echo $search ?>" aria-label="Next">
+									<a class="page-link" href="search.php?page=<?php echo $page+1; ?>&searchInput=<?php echo $search ?>" aria-label="Next">
 								 		<span aria-hidden="true">&raquo;</span>
 								 		<span class="sr-only">Next</span>
 								 	</a>
 								</li>
 								
 								<li class="page-item <?php if($page == $total_pages){ echo " disabled ";} ?>">		
-									<a class="page-link" href="searchNumberPages.php?page=<?php echo $total_pages; ?>&searchInput=<?php echo $search ?>" aria-label="Last">
+									<a class="page-link" href="search.php?page=<?php echo $total_pages; ?>&searchInput=<?php echo $search ?>" aria-label="Last">
 								 		<span aria-hidden="true">Last</span>
 								 		<span class="sr-only">Last</span>
 								 	</a>
