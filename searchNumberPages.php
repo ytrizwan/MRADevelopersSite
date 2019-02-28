@@ -60,29 +60,30 @@ $start_from = ($page-1) * $results_per_page;
 		<!--Main Middle Block, Where I put All Elements-->
 		<div class="container mainContainer marginTopByFive">
 			<div class="row text-center">
+				
+				
+
+				
+				
+				
 				<div class="col-lg-8 col-12">
 					<div class="col-12 showBoarderWithNoRadious marginTopBottomByTen boldText whiteTextWithBlackBackground boarderShadow">
 						Search Results
 					</div>
 
+					
+					
+					
+					
+					
 
 					<?php
-					
 					$found = false;
 				
-				if((empty($_GET['searchInput'])))
-				{
-					die("You must enter a search query");
- 				}			
- 				$search = trim(strip_tags($_GET['searchInput']));
-					
-					
-					
-					
-					
-					
-					
-					
+					if(!(empty($_GET['searchInput'])))
+					{			
+						$search = trim(strip_tags($_GET['searchInput']));
+						
 					//PHP query for Dynamic Post
 					$queryIndexPage = "SELECT *
 										FROM mra_post
@@ -92,6 +93,7 @@ $start_from = ($page-1) * $results_per_page;
 					$connectToQueryIndexPage = mysqli_query($conn, $queryIndexPage);
 					$countRows = mysqli_num_rows($connectToQueryIndexPage);
 					if($countRows > 0){
+						$found = true;
 						while($getEachRow = mysqli_fetch_array($connectToQueryIndexPage)){
 							$storeID = $getEachRow['id'];
 							$storeDate = $getEachRow['date'];
@@ -187,7 +189,7 @@ $start_from = ($page-1) * $results_per_page;
 					$result = $conn->query($sql);
 					$row = $result->fetch_assoc();
 					$total_pages = ceil($row["total"] / $results_per_page);
-					
+					if($found){
 					?>
 
 					<div>
@@ -293,7 +295,15 @@ $start_from = ($page-1) * $results_per_page;
 					</div>
 
 
-
+					<?php
+						}elseif(!$found){
+							echo "<div style ='padding-bottom:40%'><p>No matches found!</p></div>";
+						}
+						
+					}elseif((empty($_GET['searchInput']))){
+						die("You must enter a search query");
+					}
+					?>
 
 
 					
@@ -312,6 +322,7 @@ $start_from = ($page-1) * $results_per_page;
 
 				<?php
 					include "templates/sideBarTemplate.php";
+
 				?>
 				
 				
