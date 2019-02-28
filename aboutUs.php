@@ -64,7 +64,14 @@ $start_from = ($page-1) * $results_per_page;
 					<div class="col-12 showBoarderWithNoRadious marginTopBottomByTen boldText whiteTextWithBlackBackground boarderShadow">
 						About Us
 					</div>
-
+					
+					<div>
+						<h1>Working On it!</h1>
+					</div>
+					
+					
+					
+					
 				</div>
 			</div>
 		</div>
