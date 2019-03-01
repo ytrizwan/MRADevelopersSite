@@ -60,21 +60,40 @@ $start_from = ($page-1) * $results_per_page;
 		<!--Main Middle Block, Where I put All Elements-->
 		<div class="container mainContainer marginTopByFive">
 			<div class="row text-center">
+				
+				
+
+				
+				
+				
 				<div class="col-lg-8 col-12">
 					<div class="col-12 showBoarderWithNoRadious marginTopBottomByTen boldText whiteTextWithBlackBackground boarderShadow">
-						Latest Posts
+						Search Results
 					</div>
 
+					
+					
+					
+					
+					
 
 					<?php
+					$found = false;
+				
+					if(!(empty($_GET['searchInput'])))
+					{			
+						$search = trim(strip_tags($_GET['searchInput']));
+						
 					//PHP query for Dynamic Post
 					$queryIndexPage = "SELECT *
 										FROM mra_post
+										WHERE title LIKE '%$search%'
 										ORDER BY id DESC
 										LIMIT $start_from, ".$results_per_page;
 					$connectToQueryIndexPage = mysqli_query($conn, $queryIndexPage);
 					$countRows = mysqli_num_rows($connectToQueryIndexPage);
 					if($countRows > 0){
+						$found = true;
 						while($getEachRow = mysqli_fetch_array($connectToQueryIndexPage)){
 							$storeID = $getEachRow['id'];
 							$storeDate = $getEachRow['date'];
@@ -166,11 +185,11 @@ $start_from = ($page-1) * $results_per_page;
 					
 					<?php
 					//PHP Code for Page Numbers (3/4)
-					$sql = "SELECT COUNT(ID) AS total FROM ".$datatable; 
+					$sql = "SELECT COUNT(ID) AS total FROM ".$datatable." WHERE title LIKE '%$search%'"; 
 					$result = $conn->query($sql);
 					$row = $result->fetch_assoc();
 					$total_pages = ceil($row["total"] / $results_per_page);
-					
+					if($found){
 					?>
 
 					<div>
@@ -178,7 +197,7 @@ $start_from = ($page-1) * $results_per_page;
 							<ul class="pagination justify-content-center">
 								
 								<li class="page-item <?php if($page == 1){ echo " disabled ";} ?>">
-									<a class="page-link" href="index.php?page=<?php echo "1"; ?>" aria-label="First">
+									<a class="page-link" href="search.php?page=<?php echo "1"; ?>&searchInput=<?php echo $search ?>" aria-label="First">
 								 		<span aria-hidden="true">First</span>
 								 		<span class="sr-only">First</span>
 								 	</a>
@@ -186,22 +205,11 @@ $start_from = ($page-1) * $results_per_page;
 								
 								
 								<li class="page-item <?php if($page == 1){ echo " disabled ";} ?>">
-									<a class="page-link" href="index.php?page=<?php echo $page-1; ?>" aria-label="Previous">
+									<a class="page-link" href="search.php?page=<?php echo $page-1; ?>&searchInput=<?php echo $search ?>" aria-label="Previous">
 								 		<span aria-hidden="true">&laquo;</span>
 								 		<span class="sr-only">Previous</span>
 								 	</a>
 								</li>
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
 								
 								<?php 
 								//PHP Code for Page Numbers (4/4)
@@ -212,7 +220,7 @@ $start_from = ($page-1) * $results_per_page;
 								<li 
 									class="page-item <?php if($page == $i){ echo " active ";} ?>">
 									<?php 
-									echo "<a class=\"page-link\" href='index.php?page=".$i."'>";
+									echo "<a class=\"page-link\" href='search.php?page=".$i."&searchInput=".$search."'>";
 									echo $i;
 									echo "</a> ";
 									?>
@@ -226,7 +234,7 @@ $start_from = ($page-1) * $results_per_page;
 								<li 
 									class="page-item <?php if($page == $i){ echo " active ";} ?>">
 									<?php 
-									echo "<a class=\"page-link\" href='index.php?page=".$i."'>";
+									echo "<a class=\"page-link\" href='search.php?page=".$i."&searchInput=".$search."'>";
 										if($i < 6){
 											echo $i;
 										}elseif($i == 6){
@@ -245,7 +253,7 @@ $start_from = ($page-1) * $results_per_page;
 								<li 
 									class="page-item <?php if($page == $i){ echo " active ";} ?>">
 									<?php 
-									echo "<a class=\"page-link\" href='index.php?page=".$i."'>";
+									echo "<a class=\"page-link\" href='search.php?page=".$i."&searchInput=".$search."'>";
 									echo $i;
 									echo "</a> ";
 									?>
@@ -259,7 +267,7 @@ $start_from = ($page-1) * $results_per_page;
 								<li 
 									class="page-item <?php if($page == $i){ echo " active ";} ?>">
 									<?php 
-									echo "<a class=\"page-link\" href='index.php?page=".$i."'>";
+									echo "<a class=\"page-link\" href='search.php?page=".$i."&searchInput=".$search."'>";
 									echo $i;
 									echo "</a> ";
 									?>
@@ -269,29 +277,15 @@ $start_from = ($page-1) * $results_per_page;
 								};
 								?>
 
-	
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-
-
 								<li class="page-item <?php if($page == $total_pages){ echo " disabled ";} ?>">		
-									<a class="page-link" href="index.php?page=<?php echo $page+1; ?>" aria-label="Next">
+									<a class="page-link" href="search.php?page=<?php echo $page+1; ?>&searchInput=<?php echo $search ?>" aria-label="Next">
 								 		<span aria-hidden="true">&raquo;</span>
 								 		<span class="sr-only">Next</span>
 								 	</a>
 								</li>
 								
 								<li class="page-item <?php if($page == $total_pages){ echo " disabled ";} ?>">		
-									<a class="page-link" href="index.php?page=<?php echo $total_pages; ?>" aria-label="Last">
+									<a class="page-link" href="search.php?page=<?php echo $total_pages; ?>&searchInput=<?php echo $search ?>" aria-label="Last">
 								 		<span aria-hidden="true">Last</span>
 								 		<span class="sr-only">Last</span>
 								 	</a>
@@ -301,7 +295,15 @@ $start_from = ($page-1) * $results_per_page;
 					</div>
 
 
-
+					<?php
+						}elseif(!$found){
+							echo "<div style ='padding-bottom:40%'><p>No matches found!</p></div>";
+						}
+						
+					}elseif((empty($_GET['searchInput']))){
+						echo "<div style ='padding-bottom:40%'><p>You must enter a search query</p></div>";
+					}
+					?>
 
 
 					
@@ -320,6 +322,7 @@ $start_from = ($page-1) * $results_per_page;
 
 				<?php
 					include "templates/sideBarTemplate.php";
+
 				?>
 				
 				
