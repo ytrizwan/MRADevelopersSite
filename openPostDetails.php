@@ -81,11 +81,22 @@ mysqli_set_charset($conn, "utf8mb4");
 					</div>
 					<hr>
 
-
+					
+					
+					
 
 
 					
 					
+					<?php
+					$comment_query = "Select *
+										FROM mra_comments
+										WHERE id_post_fk = '$postID'";
+					
+					$connect_to_query = mysqli_query($conn, $comment_query);
+					$count_rows = mysqli_num_rows($connect_to_query);
+					if($count_rows > 0){
+					?>
 					
 					
 					
@@ -99,7 +110,7 @@ mysqli_set_charset($conn, "utf8mb4");
 								</div>
 
 								<div class="col-4 reponsiveTextSizeMaxSixteen" style="text-align: center;">
-									Comments <span class="badge badge-light">2</span>
+									Comments <span class="badge badge-light"><?php echo $count_rows; ?></span>
 								</div>
 
 								<div id="showHideLabel" class="col-4 reponsiveTextSizeMaxSixteen" style="text-align: right;">
@@ -108,65 +119,48 @@ mysqli_set_charset($conn, "utf8mb4");
 							</div>
 					</div>
 					
-					
-					
+
 					<div id="commentsBlock">
-					
-					
-					<div class="showBoarder eachMainPostUpperBottom lightBlueBackground boarderShadow">
-						<div style="margin: 10px;">
-						<div class="boldText" style="text-align: left;">
-							Name: <span style="color: blue;">Muhammad Rizwan Asim</span>
-						</div>
-							<div class="CommentsStyle whiteColorBackground reponsiveTextSizeMaxSixteen">
-								Since before Christmas, royal fans have questioned whether the two duchesses have been getting along, with rumours emerging that the sisters-in-law are “feuding”, The Sun reports. Now, royal experts have weighed in to claim Meghan — who has only been a member of the royal family for eight months — “never stood a chance” in the popularity stakes against Kate. Writing in the Guardian, Yomi Adegoke said: “Meghan’s casting as a Disney villain — a black female divorcee with a penchant for black dresses (another protocol breach) — practically writes itself.	
-							</div>
-						 
-						<div style="text-align: right;">
-							Date: <span style="color: blue;">10/12/2019</span>
-						</div>
-							</div>
-					</div>
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
+					 
+					<?php
+					while($getEachRow = mysqli_fetch_array($connect_to_query)){
+							$commentID = $getEachRow['id_comnt'];
+							$commentFK = $getEachRow['id_post_fk'];
+							$commentMSG = $getEachRow['comments'];
+							$commentNAM = $getEachRow['names_comnt'];
+							$commentDate = $getEachRow['date_comnt'];	
+					?>
+						
+						
 					
 					<div class="showBoarder eachMainPostUpperBottom lightBlueBackground boarderShadow">
 						<div style="margin: 10px;">
 						<div class="boldText" style="text-align: left;">
-							Name: <span style="color: blue;">Muhammad Rizwan Asim</span>
+							Name: <span style="color: blue;"><?php echo $commentNAM; ?></span>
 						</div>
 							<div class="CommentsStyle whiteColorBackground reponsiveTextSizeMaxSixteen">
-								Since before Christmas, royal fans have questioned whether the two duchesses have been getting along, with rumours emerging that the sisters-in-law are “feuding”, The Sun reports. Now, royal experts have weighed in to claim Meghan — who has only been a member of the royal family for eight months — “never stood a chance” in the popularity stakes against Kate. Writing in the Guardian, Yomi Adegoke said: “Meghan’s casting as a Disney villain — a black female divorcee with a penchant for black dresses (another protocol breach) — practically writes itself.	
+								<?php echo $commentMSG; ?>	
 							</div>
 						 
 						<div style="text-align: right;">
-							Date: <span style="color: blue;">10/12/2019</span>
+							Date: <span style="color: blue;"><?php echo $commentDate; ?></span>
 						</div>
 							</div>
 					</div>
+
 					
+					<?php
+						}
+					}
+					?>
+					
+					
+					
+
+					
+					
+					
+
 					
 					
 					
@@ -203,47 +197,9 @@ mysqli_set_charset($conn, "utf8mb4");
 						</div>
 							</div>
 					</div>
-					
-					
-					
-					
-					
-					
+
 					</div>
 					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-
-
-
-
-
-
 				</div>
 
 
