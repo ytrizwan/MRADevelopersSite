@@ -138,7 +138,7 @@ mysqli_set_charset($conn, "utf8mb4");
 						<div class="boldText" style="text-align: left;">
 							Name: <span style="color: blue;"><?php echo $commentNAM; ?></span>
 						</div>
-							<div class="CommentsStyle whiteColorBackground reponsiveTextSizeMaxSixteen">
+							<div class="CommentsStyle whiteColorBackground reponsiveTextSizeMaxSixteen text-justify" style="padding: 5px;">
 								<?php echo $commentMSG; ?>	
 							</div>
 						 
@@ -162,6 +162,29 @@ mysqli_set_charset($conn, "utf8mb4");
 					
 
 					
+						
+						
+						
+
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
 					
 					
 					
@@ -175,37 +198,52 @@ mysqli_set_charset($conn, "utf8mb4");
 					
 					
 					
-					<div class="col-12 showBoarderWithNoRadious marginTopBottomByTen boldText whiteTextWithBlackBackground boarderShadow">
-						Add New Comment
-					</div>
-					
-				
-					<div class=" eachMainPostUpperBottom " style="box-shadow: 0px 0px 50px black; margin: 20px 5px;"><br>
-						<div style="margin: 10px;">
-						<div class="boldText" style="text-align: left; margin: 10px;">
-							<input type="text" class="form-control" placeholder="Name">
+						<div class="col-12 showBoarderWithNoRadious marginTopBottomByTen boldText whiteTextWithBlackBackground boarderShadow">
+							Add New Comment
 						</div>
-						<div style="margin: 10px;">
-							<label >Add Comment:</label>
-							<textarea class="form-control" rows = 5>
-							
-							</textarea>
+
+						<div class=" eachMainPostUpperBottom " style="box-shadow: 0px 0px 50px black; margin: 20px 5px;"><br>
+
+						<form action="" method="post" enctype="multipart/form-data">
+							<div style="margin: 10px;">
+							<div class="boldText" style="text-align: left; margin: 10px;">
+								<input class="form-control" type="text" name="comntName" id="comntNameID" placeholder="Name">
 							</div>
-						 
-						<div style="text-align: right; padding: 20px 10px;">
-							<button type="button" class="btn btn-primary">Post</button>
+							<div style="margin: 10px;">
+								<label for="comntTextID" >Add Comment:</label>
+								<textarea required class="form-control" id="comntTextID" name="comntText" rows = 5></textarea>
+								</div>
+
+							<div style="text-align: right; padding: 20px 10px;">
+								<button name="submit" class="btn btn-primary">Post</button>
+							</div>
+								</div>
+							</form>		
+						<?php
+							if(isset($_POST['submit'])){
+								$name = $_POST['comntName'];
+								$comment = $_POST['comntText'];
+
+								if($name == null){
+									$name = "Anonymous";
+								}
+
+								$insert = "INSERT INTO mra_comments(id_post_fk, comments, names_comnt)
+											VALUE($postID , '$comment', '$name')";
+
+								$run = mysqli_query($conn, $insert);
+								if($run){
+									echo "<script>alert('Your comment Inserted Successfully')</script>";
+								}else{
+									echo "<script>alert('Your comment Inserted Unsuccessfully')</script>";
+								}
+							}
+						?>	
+
 						</div>
-							</div>
-					</div>
 
 					</div>
-					
 				</div>
-
-
-
-
-
 
 				<?php
 					include "templates/sideBarTemplate.php";
