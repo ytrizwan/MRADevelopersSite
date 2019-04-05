@@ -277,6 +277,13 @@ mysqli_set_charset($conn, "utf8mb4");
 		$("#commentsBlock").hide();
 		$("#showHideLabel").text("Show");
 		
+		//Added Hover Cursor On mouser Over
+		$("#showHideLabel").hover(function() {
+			$(this).css('cursor','pointer');
+		}, function() {
+			$(this).css('cursor','auto');
+		});
+		
 		$("#commentsHeader").click(function(){
 			if(switchShowHide == true){
 				$("#commentsBlock").show("slow");
