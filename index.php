@@ -108,7 +108,7 @@ $start_from = ($page-1) * $results_per_page;
 							<div class="col-6 alignLeft">
 								<span class="boldText">Date:</span> <?php echo $storeDate; ?>
 							</div>
-							<div class="col-6 alignRight">
+							<div class="col-6 alignRight disableHover">
 								<a href="openPostDetails.php?id=<?php echo $storeID; ?>">Open</a>
 							</div>
 						</div>
