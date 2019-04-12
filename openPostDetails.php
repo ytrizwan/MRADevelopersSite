@@ -87,7 +87,6 @@ mysqli_set_charset( $conn, "utf8mb4" );
 
 					$connect_to_query = mysqli_query( $conn, $comment_query );
 					$count_rows = mysqli_num_rows( $connect_to_query );
-					if ( $count_rows > 0 ) {
 						?>
 
 					<div id="commentsHeader" class="col-12 showBoarderWithNoRadious marginTopBottomByTen boldText whiteTextWithBlackBackground boarderShadow disableHover">
@@ -110,9 +109,10 @@ mysqli_set_charset( $conn, "utf8mb4" );
 					</div>
 
 
-					
+					<div id="commentsBlock">
 
 						<?php
+						if ( $count_rows > 0 ) {
 						while ( $getEachRow = mysqli_fetch_array( $connect_to_query ) ) {
 							$commentID = $getEachRow[ 'id_comnt' ];
 							$commentFK = $getEachRow[ 'id_post_fk' ];
@@ -121,7 +121,7 @@ mysqli_set_charset( $conn, "utf8mb4" );
 							$commentDate = $getEachRow[ 'date_comnt' ];
 							?>
 					
-					<div id="commentsBlock">
+					
 						<div class="showBoarder eachMainPostUpperBottom lightBlueBackground boarderShadow">
 							<div style="margin: 10px;">
 								<div class="boldText" style="text-align: left;">
@@ -142,13 +142,17 @@ mysqli_set_charset( $conn, "utf8mb4" );
 								</div>
 							</div>
 						</div>
-						</div>
+						
 
 						<?php
 						}
+						}else{
+							echo'Empty';
 						}
 						?>
-
+						
+						</div>
+					
 						<div class="showBoarderWithNoRadious marginTopBottomByTen boldText whiteTextWithBlackBackground boarderShadow">
 							Add New Comment
 						</div>
@@ -187,6 +191,7 @@ mysqli_set_charset( $conn, "utf8mb4" );
 									echo "<script>alert('Your comment Inserted Successfully')</script>";
 								} else {
 									echo "<script>alert('Your comment Inserted Unsuccessfully')</script>";
+									 
 								}
 							}
 							?>
