@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 07, 2019 at 12:51 PM
+-- Generation Time: Apr 13, 2019 at 12:20 PM
 -- Server version: 10.1.37-MariaDB
 -- PHP Version: 7.3.0
 
@@ -33,8 +33,16 @@ CREATE TABLE `mra_comments` (
   `id_post_fk` int(100) NOT NULL,
   `comments` text NOT NULL,
   `names_comnt` text NOT NULL,
-  `date_comnt` datetime NOT NULL
+  `date_comnt` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `mra_comments`
+--
+
+INSERT INTO `mra_comments` (`id_comnt`, `id_post_fk`, `comments`, `names_comnt`, `date_comnt`) VALUES
+(542, 23, '3333333fsdgsdfg sdfgsdf sdfg', 'Asim', '2019-04-12 14:00:00'),
+(543, 16, 'This Software is developed by me. :)', 'Muhammad Rizwan Asim', '2019-04-13 10:18:15');
 
 -- --------------------------------------------------------
 
@@ -44,7 +52,7 @@ CREATE TABLE `mra_comments` (
 
 CREATE TABLE `mra_post` (
   `id` int(100) NOT NULL,
-  `date` date NOT NULL,
+  `date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `title` text NOT NULL,
   `details` text NOT NULL,
   `img` text NOT NULL,
@@ -58,7 +66,7 @@ CREATE TABLE `mra_post` (
 --
 
 INSERT INTO `mra_post` (`id`, `date`, `title`, `details`, `img`, `imgName`, `cat`, `etc`) VALUES
-(16, '2019-04-07', 'MRA Stock Calculator', 'Put your stock purchase and sales price to find out the profit.You can put stock company code to check rates directly.You can put purchase and sales brokerage.\r\n\r\nWHAT\'S NEW\r\nAuto Calculation, no need to press button to calculate results. Save Data with multiple company name, can load any shares of specific company any time. Can see more Calculations by pressing \'detail\' button on single screen. Can see the formula\'s by pressing the names of any output.\r\n\r\nDevelopers Email:\r\nmra4developers@gmail.com\r\n\r\n', 'mraStockCalc.jpg', 'Stock Calculator', 'a', '');
+(16, '2019-04-06 13:00:00', 'MRA Stock Calculator', 'Put your stock purchase and sales price to find out the profit.You can put stock company code to check rates directly.You can put purchase and sales brokerage.\r\n\r\n<b>WHAT\'S NEW:</b>\r\nAuto Calculation, no need to press button to calculate results. Save Data with multiple company name, can load any shares of specific company any time. Can see more Calculations by pressing \'detail\' button on single screen. Can see the formula\'s by pressing the names of any output.\r\n\r\n<b>Developers Email:</b>\r\nmra4developers@gmail.com\r\n\r\n', 'mraStockCalc.jpg', 'Stock Calculator', 'a', '');
 
 --
 -- Indexes for dumped tables
@@ -84,13 +92,13 @@ ALTER TABLE `mra_post`
 -- AUTO_INCREMENT for table `mra_comments`
 --
 ALTER TABLE `mra_comments`
-  MODIFY `id_comnt` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id_comnt` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=544;
 
 --
 -- AUTO_INCREMENT for table `mra_post`
 --
 ALTER TABLE `mra_post`
-  MODIFY `id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+  MODIFY `id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
