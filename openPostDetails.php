@@ -1,4 +1,5 @@
 <?php
+session_start();
 require( "admin/config/db.php" );
 //characters from Database is fixed
 mysqli_set_charset( $conn, "utf8mb4" );
@@ -175,6 +176,24 @@ mysqli_set_charset( $conn, "utf8mb4" );
 								</div>
 							</form>
 							<?php
+							if ( isset( $_POST[ 'submit' ] ) == true ) {
+										$_SESSION["commentName"] = $_POST[ 'comntName' ];
+										$_SESSION["commentMessage"] = $_POST[ 'comntText' ];
+										$_SESSION["postID"] = $postID;
+								echo "<script>window.open('addComment.php', '_self');</script>";
+							}
+							?>
+
+							
+							
+							
+							
+							
+							
+							
+							
+							
+<!--							
 							if ( isset( $_POST[ 'submit' ] ) ) {
 								$name = $_POST[ 'comntName' ];
 								$comment = $_POST[ 'comntText' ];
@@ -194,8 +213,31 @@ mysqli_set_charset( $conn, "utf8mb4" );
 									 
 								}
 							}
-							?>
-
+							-->
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
 						</div>
 				</div>
 
