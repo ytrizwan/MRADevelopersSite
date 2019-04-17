@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 13, 2019 at 12:20 PM
+-- Generation Time: Apr 16, 2019 at 11:29 AM
 -- Server version: 10.1.37-MariaDB
 -- PHP Version: 7.3.0
 
@@ -66,7 +66,8 @@ CREATE TABLE `mra_post` (
 --
 
 INSERT INTO `mra_post` (`id`, `date`, `title`, `details`, `img`, `imgName`, `cat`, `etc`) VALUES
-(16, '2019-04-06 13:00:00', 'MRA Stock Calculator', 'Put your stock purchase and sales price to find out the profit.You can put stock company code to check rates directly.You can put purchase and sales brokerage.\r\n\r\n<b>WHAT\'S NEW:</b>\r\nAuto Calculation, no need to press button to calculate results. Save Data with multiple company name, can load any shares of specific company any time. Can see more Calculations by pressing \'detail\' button on single screen. Can see the formula\'s by pressing the names of any output.\r\n\r\n<b>Developers Email:</b>\r\nmra4developers@gmail.com\r\n\r\n', 'mraStockCalc.jpg', 'Stock Calculator', 'a', '');
+(1, '2019-04-16 09:25:41', 'MRA Stock Calculator', 'Put your stock purchase and sales price to find out the profit.You can put stock company code to check rates directly.You can put purchase and sales brokerage.\r\n\r\n<b>WHAT\'S NEW:</b>\r\nAuto Calculation, no need to press button to calculate results. Save Data with multiple company name, can load any shares of specific company any time. Can see more Calculations by pressing \'detail\' button on single screen. Can see the formula\'s by pressing the names of any output.\r\n\r\n<b>Developers Email:</b>\r\nmra4developers@gmail.com\r\n\r\n<a href=\"https://play.google.com/store/apps/details?id=com.mra.mrastockcalculator\">PlayStore</a>', 'mraStockCalc.jpg', 'Stock Calculator', 'a', ''),
+(2, '2019-04-16 09:12:15', 'Dynamic Website Development', 'I also worked on a project, to build a website for CIT new cooking show. In this project, my team members and I developed whole website from scratch, we used Bootstrap, HTML and CSS for front-end development and used PHP to attach it with MYSQL Database. \r\n\r\n<b>Link:</b> <a href=\"citpressurecooker.com\">citpressurecooker.com</a>\r\n<img class=\"imageStyleOfPosts img-fluid\" src=\"assets/images/dynamic/postMainImage/group.jpg\" alt=\"group\">', 'dynamicWebsite.png', 'CIT PressureCooker Show', 'p', '');
 
 --
 -- Indexes for dumped tables
@@ -98,7 +99,7 @@ ALTER TABLE `mra_comments`
 -- AUTO_INCREMENT for table `mra_post`
 --
 ALTER TABLE `mra_post`
-  MODIFY `id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
+  MODIFY `id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
