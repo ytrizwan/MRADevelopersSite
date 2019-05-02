@@ -35,9 +35,10 @@
 				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownInfo" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Info</a>
 
 				<div class="dropdown-menu" aria-labelledby="navbarDropdownInfo">
-					<a class="dropdown-item" href="aboutUs.php">About Us</a>
+					<a class="dropdown-item" href="admin/index.php">Admin</a>
 					<div class="dropdown-divider"></div>
 					<a class="dropdown-item" href="curriculumVitae.php">Curriculum vitae (CV)</a>
+					<a class="dropdown-item" href="aboutUs.php">About Us</a>
 				</div>
 			</li>
 			
